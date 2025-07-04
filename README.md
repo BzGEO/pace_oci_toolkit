@@ -20,7 +20,7 @@ OVERVIEW: This is a set of JavaScript-based Google Earth Engine (GEE, https://co
 4. More information on the PACE products can be found at: https://pace.oceansciences.org/data_table.htm.
 
 # Context
-This work was initially soft-launched on 22 May 2025, during the virtual Technical Interchange Meeting of NASA's Surface Biology and Geology (SBG) mission (see: https://sbg.jpl.nasa.gov/news-events/sbg-sa-tim-2025). This work is being led by researchers from the Lab for Applied Science (https://www.uah.edu/essc/laboratory-for-applied-science) of the Earth System Science Center (https://www.uah.edu/essc) of the University of Alabama in Huntsville and has been supported by the SERVIR Science Coordination Office at the NASA Marshall Space Flight Center. This work is being done in the context of a Early Adopters project for the PACE mission (see: https://pace.oceansciences.org/people_ea.htm?id=127).
+This work was initially soft-launched on 22 May 2025, during the virtual Technical Interchange Meeting of NASA's Surface Biology and Geology (SBG) mission (see: https://sbg.jpl.nasa.gov/news-events/sbg-sa-tim-2025). This work is being led by researchers from the Lab for Applied Science (https://www.uah.edu/essc/laboratory-for-applied-science) of the Earth System Science Center (https://www.uah.edu/essc) of the University of Alabama in Huntsville and has been supported by the SERVIR Science Coordination Office at the NASA Marshall Space Flight Center (see: https://science.nasa.gov/category/missions/servir/). This work is being done in the context of a Early Adopters project for the PACE mission (see: https://pace.oceansciences.org/people_ea.htm?id=127).
 
 # About
 This text was last updated on 4 July 2025.
