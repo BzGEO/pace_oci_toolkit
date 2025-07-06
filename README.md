@@ -1,17 +1,17 @@
 # A toolkit for land data from the Ocean Color Instrument (OCI) of the NASA Plankton, Aerosol, Cloud, ocean Ecosystem (PACE) mission
-**OVERVIEW:** This is a set of JavaScript-based [Google Earth Engine (GEE)](https://code.earthengine.google.com) tools for accessing land data from the OCI sensor on NASA's [PACE satellite]( https://pace.oceansciences.org). One of the [dependency packages](https://bit.ly/gee_repo_hyperspectral) provides direct access to PACE OCI *provisional* [surface reflectance (SR)](https://oceancolor.gsfc.nasa.gov/data/10.5067/PACE/OCI/L2/SFREFL/3.0) and [vegetation index (VI)](https://oceancolor.gsfc.nasa.gov/data/10.5067/PACE/OCI/L2/LANDVI/3.0) data that have been loaded into GEE. Another dependency [package](https://bit.ly/gee_repo_hyperspectral) provides data on the *hyperspectral* wavelengths of the PACE OCI [surface reflectance](https://oceancolor.gsfc.nasa.gov/data/10.5067/PACE/OCI/L2/SFREFL/3.0) [bands](https://bit.ly/pace_oci_sr_v3_bands), as well as the wavelengths of NASA's other spaceborne hyperspectral imagers, namely [EO-1 Hyperion](https://developers.google.com/earth-engine/datasets/catalog/EO1_HYPERION) and the ISS [EMIT](https://developers.google.com/earth-engine/datasets/catalog/NASA_EMIT_L2A_RFL), for comparison. Aside from the dependencies, example scripts are provided to allow users to interact with the data, and the geographic and temporal scopes of those examples can be modified to meet users' needs. The scripts are divided into the following main functions:
+**OVERVIEW:** This is a set of JavaScript-based [Google Earth Engine (GEE)](https://code.earthengine.google.com) tools for accessing land data from the [OCI](https://pace.oceansciences.org/oci.htm) sensor on NASA's [PACE]( https://pace.oceansciences.org) satellite. One of the [dependency packages](https://bit.ly/gee_repo_hyperspectral) provides direct access to PACE OCI *provisional* [surface reflectance (SR)](https://oceancolor.gsfc.nasa.gov/data/10.5067/PACE/OCI/L2/SFREFL/3.0) and [vegetation index (VI)](https://oceancolor.gsfc.nasa.gov/data/10.5067/PACE/OCI/L2/LANDVI/3.0) data that have been loaded into GEE. Another dependency [package](https://bit.ly/gee_repo_hyperspectral) provides data on the *hyperspectral* wavelengths of the PACE OCI [surface reflectance](https://oceancolor.gsfc.nasa.gov/data/10.5067/PACE/OCI/L2/SFREFL/3.0) [bands](https://bit.ly/pace_oci_sr_v3_bands), as well as the wavelengths of NASA's other spaceborne hyperspectral imagers, namely [EO-1 Hyperion](https://developers.google.com/earth-engine/datasets/catalog/EO1_HYPERION) and the ISS [EMIT](https://developers.google.com/earth-engine/datasets/catalog/NASA_EMIT_L2A_RFL), for comparison. Aside from the dependencies, example scripts are provided to allow users to interact with the data, and the geographic and temporal scopes of those examples can be modified to meet users' needs. The scripts are divided into the following main functions:
 
-(i) Data discovery (*for discovering which PACE OCI SR and VI data are available, as well as which EO-1 Hyperion and EMIT data are available*)
+**(i)** Data discovery (*for discovering which PACE OCI SR and VI data are available, as well as which EO-1 Hyperion and EMIT data are available*)
 
-(ii) Data visualization (*for viewing PACE OCI SR and VI data are available, as well as viewing available EO-1 Hyperion and EMIT data*)
+**(ii)** Data visualization (*for viewing PACE OCI SR and VI data are available, as well as viewing available EO-1 Hyperion and EMIT data*)
 
-(iii) Spectral signature visualization (*for viewing the spectral signatures of specific land cover or vegetation features*)
+**(iii)** Spectral signature visualization (*for viewing the spectral signatures of specific land cover or vegetation features*)
 
-(iv) Data gap filling (*for filling data gaps using averages or using harmonic functions*)
+**(iv)** Data gap filling (*for filling data gaps using averages or using harmonic functions*)
 
-(v) Time series analysis (*for viewing the time series of SR or VI data*)
+**(v)** Time series analysis (*for viewing the time series of SR or VI data*)
 
-(vi) Image classification (*for basic unsupervised learning classification of PACE OCI data*)
+**(vi)** Image classification (*for basic unsupervised learning classification of PACE OCI data*)
 
 # Notes:
 1. To add the code repository directly to your GEE account, use the following bit.ly link: https://bit.ly/gee_repo_pace_oci.
