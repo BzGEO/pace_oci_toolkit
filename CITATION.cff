@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Cherrington"
+  given-names: "Emil"
+  orcid: "https://orcid.org/0000-0003-0524-4744"
+title: "PACE OCI data Toolkit"
+version: 1.0.0.1
+doi: 10.5281/zenodo.15824918
+date-released: 2025-07-06
+url: "https://github.com/bzgeo/pace_oci_toolkit"
