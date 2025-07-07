@@ -17,7 +17,7 @@ those examples can be modified to meet users' needs. The scripts are divided int
 
 AUTHOR: Emil A. Cherrington, Ph.D. (University of Alabama in Huntsville / NASA SERVIR); emil.cherrington@uah.edu
 
-CITATION: https://doi.org/10.5281/zenodo.15807534
+CITATION: https://doi.org/10.5281/zenodo.15824918
 
 LAST UPDATED: 06.07.2025
 
