@@ -6,8 +6,8 @@ Last updated: 18.06.2025
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 var a = require('users/bzgeo/examples:_ancillary/mes');
-var b = require('users/bzgeo/hyperspectral_toolkit:00_pkg/emit_hyperion_pace');
-var c = require('users/bzgeo/hyperspectral_toolkit:00_pkg/ref_data_pace_oci');
+var b = require('users/bzgeo/hyperspectral_toolkit:00_pkg/emit_hyperion_pace.js');
+var c = require('users/bzgeo/hyperspectral_toolkit:00_pkg/ref_data_pace_oci.js');
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 

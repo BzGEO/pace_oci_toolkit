@@ -4,7 +4,7 @@
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-var b = require('users/servirbz/packages:pace/pace_misc');
+var b = require('users/bzgeo/hyperspectral_toolkit:00_pkg/emit_hyperion_pace.js');
 
 var roi = ee.Geometry.Rectangle(-87.64, 15.87, -89.4, 18.54);
 

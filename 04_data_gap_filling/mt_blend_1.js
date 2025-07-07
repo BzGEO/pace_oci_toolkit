@@ -1,12 +1,5 @@
 /**** Start of imports. If edited, may not auto-convert in the playground. ****/
-var roi = ee.FeatureCollection("projects/bz-sdg/aoi/aoi_globe"),
-    img1 = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/paci_oci/8day_4km_clipped/vi_01_ndvi_b48_4km"),
-    img2 = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/paci_oci/8day_4km_clipped/vi_02_evi_b48_4km"),
-    img3 = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/paci_oci/8day_4km_clipped/vi_05_cci_b48_4km"),
-    img4 = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/paci_oci/8day_4km_clipped/vi_07_cire_b48_4km"),
-    img5 = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/paci_oci/8day_4km_clipped/vi_08_car_b48_4km"),
-    img6 = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/paci_oci/8day_4km_clipped/vi_09_mari_b48_4km"),
-    img7 = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/paci_oci/8day_4km_clipped/vi_10_pri_b48_4km");
+var roi = ee.FeatureCollection("projects/bz-sdg/aoi/aoi_globe");
 /***** End of imports. If edited, may not auto-convert in the playground. *****/
 // Last updated: 25.03.2025
 // blend src:
@@ -14,6 +7,14 @@ var roi = ee.FeatureCollection("projects/bz-sdg/aoi/aoi_globe"),
 // https://code.earthengine.google.com/?scriptPath=users%2Fservirbz%2Fservir_bz_prototypes%3Abz_mcd43a4_mt_mosaics_t3
 
 // 1: NDVI; 2: EVI; 3: CCI; 4: CIRE; 5: CAR; 6: mARI; 7: PRI
+
+var img1 = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/paci_oci_vi/8day_4km/vi_01_ndvi_b60_4km"),
+    img2 = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/paci_oci_vi/8day_4km/vi_02_evi_b60_4km"),
+    img3 = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/paci_oci_vi/8day_4km/vi_05_cci_b60_4km"),
+    img4 = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/paci_oci_vi/8day_4km/vi_07_cire_b60_4km"),
+    img5 = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/paci_oci_vi/8day_4km/vi_08_car_b60_4km"),
+    img6 = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/paci_oci_vi/8day_4km/vi_09_mari_b60_4km"),
+    img7 = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_vi/8day_4km/vi_10_pri_b60_4km");
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 

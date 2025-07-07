@@ -1,7 +1,6 @@
 /**** Start of imports. If edited, may not auto-convert in the playground. ****/
 var roi = ee.FeatureCollection("projects/bz-sdg/aoi/aoi_globe"),
-    img4 = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/paci_oci/8day_4km_clipped/vi_07_cire_b48_4km"),
-    img5 = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/paci_oci/8day_4km_clipped/vi_08_car_b48_4km");
+    img5 = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_vi/8day_4km/vi_08_car_b60_4km");
 /***** End of imports. If edited, may not auto-convert in the playground. *****/
 // Last updated: 24.03.2025
 

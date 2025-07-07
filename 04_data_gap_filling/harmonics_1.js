@@ -1,18 +1,19 @@
 /**** Start of imports. If edited, may not auto-convert in the playground. ****/
-var roi = ee.FeatureCollection("projects/bz-sdg/aoi/aoi_globe"),
-    img1 = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/paci_oci/vi_01_ndvi_b48_4km"),
-    img2 = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/paci_oci/vi_02_evi_b48_4km"),
-    img3 = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/paci_oci/vi_05_cci_b48_4km"),
-    img4 = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/paci_oci/vi_07_cire_b48_4km"),
-    img5 = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/paci_oci/vi_08_car_b48_4km"),
-    img6 = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/paci_oci/vi_09_mari_b48_4km"),
-    img7 = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/paci_oci/vi_10_pri_b48_4km");
+var roi = ee.FeatureCollection("projects/bz-sdg/aoi/aoi_globe");
 /***** End of imports. If edited, may not auto-convert in the playground. *****/
 // Last updated: 24.03.2025
 
 var a = require('users/servirbz/packages:temporal_reduction');
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+var img1 = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/paci_oci_vi/8day_4km/vi_01_ndvi_b60_4km"),
+    img2 = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/paci_oci_vi/8day_4km/vi_02_evi_b60_4km"),
+    img3 = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/paci_oci_vi/8day_4km/vi_05_cci_b60_4km"),
+    img4 = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/paci_oci_vi/8day_4km/vi_07_cire_b60_4km"),
+    img5 = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/paci_oci_vi/8day_4km/vi_08_car_b60_4km"),
+    img6 = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/paci_oci_vi/8day_4km/vi_09_mari_b60_4km"),
+    img7 = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_vi/8day_4km/vi_10_pri_b60_4km");
 
 var vi = img7; // 1: NDVI; 2: EVI; 3: CCI; 4: CIRE; 5: CAR; 6: mARI; 7: PRI
 
@@ -155,32 +156,32 @@ print(fitted_mt);
 
 /*
 Export.image.toAsset({image:fitted_mt.clip(roi),description:'export_ee_fitted_pace_ndvi',
-assetId:'projects/bz-sdg/compil_imagery/hyperspectral/paci_oci/vi_01_ndvi_ft_c2_202403_202502_4km',
+assetId:'projects/projects/bz-sdg/compil_imagery/hyperspectral/paci_oci_vi/8day_4km/vi_01_ndvi_ft_c2_202403_202502_4km',
 scale:4000,region:roi, crs: 'EPSG:4326'});
 
 Export.image.toAsset({image:fitted_mt.clip(roi),description:'export_ee_fitted_pace_evi',
-assetId:'projects/bz-sdg/compil_imagery/hyperspectral/paci_oci/vi_02_evi_ft_c2_202403_202502_4km',
+assetId:'projects/projects/bz-sdg/compil_imagery/hyperspectral/paci_oci_vi/8day_4km/vi_02_evi_ft_c2_202403_202502_4km',
 scale:4000,region:roi, crs: 'EPSG:4326'});
 
 Export.image.toAsset({image:fitted_mt.clip(roi),description:'export_ee_fitted_pace_cci',
-assetId:'projects/bz-sdg/compil_imagery/hyperspectral/paci_oci/vi_05_cci_ft_c2_202403_202502_4km',
+assetId:'projects/projects/bz-sdg/compil_imagery/hyperspectral/paci_oci_vi/8day_4km/vi_05_cci_ft_c2_202403_202502_4km',
 scale:4000,region:roi, crs: 'EPSG:4326'});
 
 Export.image.toAsset({image:fitted_mt.clip(roi),description:'export_ee_fitted_pace_cire',
-assetId:'projects/bz-sdg/compil_imagery/hyperspectral/paci_oci/vi_07_cire_ft_c2_202403_202502_4km',
+assetId:'projects/projects/bz-sdg/compil_imagery/hyperspectral/paci_oci_vi/8day_4km/vi_07_cire_ft_c2_202403_202502_4km',
 scale:4000,region:roi, crs: 'EPSG:4326'});
 
 Export.image.toAsset({image:fitted_mt.clip(roi),description:'export_ee_fitted_pace_car',
-assetId:'projects/bz-sdg/compil_imagery/hyperspectral/paci_oci/vi_08_car_ft_c2_202403_202502_4km',
+assetId:'projects/projects/bz-sdg/compil_imagery/hyperspectral/paci_oci_vi/8day_4km/vi_08_car_ft_c2_202403_202502_4km',
 scale:4000,region:roi, crs: 'EPSG:4326'});
 
 Export.image.toAsset({image:fitted_mt.clip(roi),description:'export_ee_fitted_pace_mari',
-assetId:'projects/bz-sdg/compil_imagery/hyperspectral/paci_oci/vi_09_mari_ft_c2_202403_202502_4km',
+assetId:'projects/projects/bz-sdg/compil_imagery/hyperspectral/paci_oci_vi/8day_4km/vi_09_mari_ft_c2_202403_202502_4km',
 scale:4000,region:roi, crs: 'EPSG:4326'});
 */
 
 Export.image.toAsset({image:fitted_mt.clip(roi),description:'export_ee_fitted_pace_pri',
-assetId:'projects/bz-sdg/compil_imagery/hyperspectral/paci_oci/vi_10_pri_ft_c2_202403_202502_4km',
+assetId:'projects/projects/bz-sdg/compil_imagery/hyperspectral/paci_oci_vi/8day_4km/vi_10_pri_ft_c2_202403_202502_4km',
 scale:4000,region:roi, crs: 'EPSG:4326'});
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////

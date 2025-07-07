@@ -1,7 +1,7 @@
 // Last updated: 30.06.2025
 
 var a = require('users/servirbz/packages:bz/bz');
-var b = require('users/bzgeo/hyperspectral_toolkit:00_pkg/ref_data_pace_oci');
+var b = require('users/bzgeo/hyperspectral_toolkit:00_pkg/ref_data_pace_oci.js');
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////
 

@@ -10,7 +10,7 @@ var img1 = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_sr/me
 var roi = ee.Geometry.Rectangle(-77, 6, -93, 22);
 
 var a = require('users/bzgeo/examples:_ancillary/mes');
-var b = require('users/servirbz/packages:pace/pace_misc');
+var b = require('users/bzgeo/hyperspectral_toolkit:00_pkg/emit_hyperion_pace.js');
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 

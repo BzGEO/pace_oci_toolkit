@@ -9,7 +9,7 @@ var b = require('users/servirbz/packages:sma_std3'); // import SMA package
 var c = require('users/servirbz/packages:img_recent'); // imports the img_recent package
 var d = require('users/servirbz/packages:bz/bz'); // imports Belize datasets
 var e = require('users/servirbz/packages:vi'); // imports VI package
-var f = require('users/bzgeo/hyperspectral_toolkit:00_pkg/emit_hyperion_pace');
+var f = require('users/bzgeo/hyperspectral_toolkit:00_pkg/emit_hyperion_pace.js');
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 

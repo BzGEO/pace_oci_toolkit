@@ -15,7 +15,7 @@ var img01 = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_sr/m
 // Last updated: 02.04.2025
 
 var a = require('users/bzgeo/examples:_ancillary/mes');
-var b = require('users/servirbz/packages:pace/pace_misc');
+var b = require('users/bzgeo/hyperspectral_toolkit:00_pkg/emit_hyperion_pace.js');
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 

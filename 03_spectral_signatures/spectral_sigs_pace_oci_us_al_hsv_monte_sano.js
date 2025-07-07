@@ -6,8 +6,8 @@ Last updated: 18.06.2025
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 // Load requisite packages
-var a = require('users/bzgeo/hyperspectral_toolkit:00_pkg/emit_hyperion_pace');
-var b = require('users/bzgeo/hyperspectral_toolkit:00_pkg/ref_data_pace_oci');
+var a = require('users/bzgeo/hyperspectral_toolkit:00_pkg/emit_hyperion_pace.js');
+var b = require('users/bzgeo/hyperspectral_toolkit:00_pkg/ref_data_pace_oci.js');
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 

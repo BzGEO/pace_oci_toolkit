@@ -1,7 +1,7 @@
 // Last updated: 16.04.2025
 
 var a = require('users/bzgeo/examples:_ancillary/mes');
-var b = require('users/servirbz/packages:hyperspectral/emit_pace_misc');
+var b = require('users/bzgeo/hyperspectral_toolkit:00_pkg/emit_hyperion_pace.js');
 
 var roi = a.gt_main;
 
