@@ -25,3 +25,14 @@ This is a set of JavaScript-based [Google Earth Engine (GEE)](https://code.earth
 
 ## Context
 This work was initially [soft-launched](https://bit.ly/sbg_tim_2025_pace_tk) on 22 May 2025, during the virtual [Technical Interchange Meeting](https://sbg.jpl.nasa.gov/news-events/sbg-sa-tim-2025) of NASA's [Surface Biology and Geology (SBG)](https://sbg.jpl.nasa.gov/) mission. This work is being led by researchers from the [Lab for Applied Science](https://www.uah.edu/essc/laboratory-for-applied-science) of the [Earth System Science Center](https://www.uah.edu/essc) of the [University of Alabama in Huntsville](https://www.uah.edu/) and has been supported by the [NASA](https://www.nasa.gov) Earth Action / NASA [Marshall Space Flight Center](https://www.nasa.gov/marshall/). This work is being done in the context of an [Early Adopters project](https://pace.oceansciences.org/people_ea.htm?id=127) for PACE. The PACE Mission Applications Lead, Dr. Morgaine McKibben (NASA / SSAI), is acknowledged for her support, as are Skye Caplan (NASA / SSAI) of the PACE mission, and Dr. K. Fred Huemmrich of the PACE Science & Applications Team (NASA / UMBC). Kudos are also due to [Kelsey Herndon](https://github.com/herndk1) (NASA / UAH), [Dr. Africa-Flores-Anderson](https://github.com/africaf) (NASA), [Eric Anderson](https://github.com/andersoner) (NASA), Dr. Kevin Horn (NASA), Dr. Ashutosh Limaye (NASA), and Dan Irwin (NASA) of NASA MSFC.
+
+## Citation
+
+If this toolkit is used in publications, presentations, or other venues, please cite the following:
+
+Cherrington, E. (2025). PACE OCI data Toolkit (Version 1.0.0.1) [Computer software]. https://doi.org/10.5281/zenodo.15824918
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15824918.svg)](https://doi.org/10.5281/zenodo.15824918)
+
+## Contact information
+
+If you have any questions, feel free to contact Emil Cherrington (emil.cherrington [at] uah.edu).
