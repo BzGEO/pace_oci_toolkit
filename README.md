@@ -35,4 +35,4 @@ Cherrington, E. (2025). PACE OCI data Toolkit (Version 1.0.0.1) [Computer softwa
 
 ## Contact information
 
-If you have any questions, feel free to contact Emil Cherrington (emil.cherrington [at] uah.edu).
+If you have any questions, feel free to contact Emil Cherrington by email: **emil.cherrington [at] uah.edu**.
