@@ -1,3 +1,5 @@
+![Visitor Badge](https://visitor-badge.laobi.icu/badge?page_id=bzgeo.pace_oci_toolkit)
+
 # the PACE OCI Toolkit
 
 *last updated: 9 July 2025*
