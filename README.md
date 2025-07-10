@@ -1,8 +1,9 @@
-![Visitor Badge](https://visitor-badge.laobi.icu/badge?page_id=bzgeo.pace_oci_toolkit)
-
 # the PACE OCI Toolkit
 
 *last updated: 9 July 2025*
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15824918.svg)](https://doi.org/10.5281/zenodo.15824918)
+![Visitor Badge](https://visitor-badge.laobi.icu/badge?page_id=bzgeo.pace_oci_toolkit)
 
 ## Summary
 This is a set of JavaScript-based [Google Earth Engine (GEE)](https://code.earthengine.google.com) tools for accessing land data from the [Ocean Color Instrument (OCI)](https://pace.oceansciences.org/oci.htm) sensor on NASA's [Plankton, Aerosol, Cloud, ocean Ecosystem (PACE)]( https://pace.oceansciences.org) satellite. One of the [dependency packages](https://bit.ly/gee_repo_hyperspectral) provides direct access to PACE OCI *provisional* [surface reflectance (SR)](https://oceancolor.gsfc.nasa.gov/data/10.5067/PACE/OCI/L2/SFREFL/3.0) and [vegetation index (VI)](https://oceancolor.gsfc.nasa.gov/data/10.5067/PACE/OCI/L2/LANDVI/3.0) data that have been loaded into GEE. Another dependency [package](https://bit.ly/gee_repo_hyperspectral) provides data on the *hyperspectral* wavelengths of the PACE OCI [surface reflectance](https://oceancolor.gsfc.nasa.gov/data/10.5067/PACE/OCI/L2/SFREFL/3.0) [bands](https://bit.ly/pace_oci_sr_v3_bands), as well as the wavelengths of NASA's other spaceborne hyperspectral imagers, namely [EO-1 Hyperion](https://developers.google.com/earth-engine/datasets/catalog/EO1_HYPERION) and the ISS [EMIT](https://developers.google.com/earth-engine/datasets/catalog/NASA_EMIT_L2A_RFL), for comparison. Aside from the dependencies, example scripts are provided to allow users to interact with the data, and the geographic and temporal scopes of those examples can be modified to meet users' needs. The scripts are divided into the following main functions:
