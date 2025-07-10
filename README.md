@@ -33,6 +33,7 @@ This work was initially [soft-launched](https://bit.ly/sbg_tim_2025_pace_tk) on 
 If this toolkit is used in publications, presentations, or other venues, please cite the following:
 
 Cherrington, E. (2025). PACE OCI data Toolkit (Version 1.0.0.1) [Computer software]. https://doi.org/10.5281/zenodo.15824918
+
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15824918.svg)](https://doi.org/10.5281/zenodo.15824918)
 
 ## Contact information
