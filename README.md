@@ -7,7 +7,7 @@
 [![GEE badge](https://img.shields.io/badge/Google%20Earth%20Engine-4285F4.svg?style=for-the-badge&logo=Google-Earth-Engine&logoColor=white)](https://bit.ly/gee_repo_pace_oci)
 
 ## Summary
-This is a set of JavaScript-based [Google Earth Engine (GEE)](https://code.earthengine.google.com) tools for accessing land data from the [Ocean Color Instrument (OCI)](https://pace.oceansciences.org/oci.htm) sensor on NASA's [Plankton, Aerosol, Cloud, ocean Ecosystem (PACE)]( https://pace.oceansciences.org) satellite. One of the [dependency packages](https://bit.ly/gee_repo_hyperspectral) provides direct access to PACE OCI *provisional* [surface reflectance (SR)](https://oceancolor.gsfc.nasa.gov/data/10.5067/PACE/OCI/L2/SFREFL/3.0) and [vegetation index (VI)](https://oceancolor.gsfc.nasa.gov/data/10.5067/PACE/OCI/L2/LANDVI/3.0) data that have been loaded into GEE. Another dependency [package](https://bit.ly/gee_repo_hyperspectral) provides data on the *hyperspectral* wavelengths of the PACE OCI [surface reflectance](https://oceancolor.gsfc.nasa.gov/data/10.5067/PACE/OCI/L2/SFREFL/3.0) [bands](https://bit.ly/pace_oci_sr_v3_bands), as well as the wavelengths of NASA's other spaceborne hyperspectral imagers, namely [EO-1 Hyperion](https://developers.google.com/earth-engine/datasets/catalog/EO1_HYPERION) and the ISS [EMIT](https://developers.google.com/earth-engine/datasets/catalog/NASA_EMIT_L2A_RFL), for comparison. Aside from the dependencies, example scripts are provided to allow users to interact with the data, and the geographic and temporal scopes of those examples can be modified to meet users' needs.
+This is a set of JavaScript-based [Google Earth Engine 🌎 (GEE)](https://code.earthengine.google.com) tools for accessing land data from the [Ocean Color Instrument (OCI)](https://pace.oceansciences.org/oci.htm) sensor on NASA's [Plankton, Aerosol, Cloud, ocean Ecosystem (PACE)]( https://pace.oceansciences.org) satellite 🛰️. One of the [dependency packages](https://bit.ly/gee_repo_hyperspectral) provides direct access to PACE OCI *provisional* [surface reflectance (SR)](https://oceancolor.gsfc.nasa.gov/data/10.5067/PACE/OCI/L2/SFREFL/3.0) and [vegetation index (VI)](https://oceancolor.gsfc.nasa.gov/data/10.5067/PACE/OCI/L2/LANDVI/3.0) data that have been loaded into GEE. Another dependency [package](https://bit.ly/gee_repo_hyperspectral) provides data on the *hyperspectral* wavelengths of the PACE OCI [surface reflectance](https://oceancolor.gsfc.nasa.gov/data/10.5067/PACE/OCI/L2/SFREFL/3.0) [bands](https://bit.ly/pace_oci_sr_v3_bands), as well as the wavelengths of NASA's other spaceborne hyperspectral imagers, namely [EO-1 Hyperion](https://developers.google.com/earth-engine/datasets/catalog/EO1_HYPERION) and the ISS [EMIT](https://developers.google.com/earth-engine/datasets/catalog/NASA_EMIT_L2A_RFL), for comparison. Aside from the dependencies, example scripts are provided to allow users to interact with the data, and the geographic and temporal scopes of those examples can be modified to meet users' needs.
 
 ## Functions
 The scripts are divided into the following main functions:
@@ -24,11 +24,11 @@ The scripts are divided into the following main functions:
 
 **(vi) Image classification** (*for basic unsupervised learning classification of PACE OCI data*)
 
-## Add this repo to Google Earth Engine
-To add the code repository directly to your GEE account, use the following *bit.ly* link: https://bit.ly/gee_repo_pace_oci.
+## 📢 Add this repo to Google Earth Engine 📢
+To add the code repository 💾 directly to your GEE account, use the following *bit.ly* 🔗: https://bit.ly/gee_repo_pace_oci.
 
 ## Additional information
-1. A video overview of the tools is provided in the third part of the following, from the [2nd PACE Land data Users' Group (PLUG) meeting](https://pace.oceansciences.org/events_more.htm?id=77) on *1 July 2025*: https://www.youtube.com/watch?v=hOu8rPd_x6I.
+1. A video 🎥 overview of the tools is provided in the third part of the following, from the [2nd PACE Land data Users' Group (PLUG) meeting](https://pace.oceansciences.org/events_more.htm?id=77) on *1 July 2025*: https://www.youtube.com/watch?v=hOu8rPd_x6I.
 2. More information on the PLUG can be found at: https://pace.oceansciences.org/event_archive/landDataUserGroup.htm.
 3. More information on PACE's data products can be found at: https://pace.oceansciences.org/data_table.htm.
 
@@ -37,7 +37,7 @@ This work was initially [soft-launched](https://bit.ly/sbg_tim_2025_pace_tk) on 
 
 ## Citation
 
-If this toolkit is used in publications, presentations, or other venues, please cite the following:
+If this toolkit is used in publications, presentations, or other venues, please cite 📝 the following:
 
 Cherrington, E. (2025). PACE OCI data Toolkit (Version 1.0.0.1) [Computer software]. https://doi.org/10.5281/zenodo.15824918
 
