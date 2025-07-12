@@ -35,6 +35,7 @@ To add the code repository 💾 directly to your GEE account, use the following 
 ## Workflow for getting PACE OCI land data into GEE
 
 The following is a graphical representation of the process for ingesting the PACE OCI land data into GEE:
+
 ![](servir_pace_gee_processing_v20250630b.png)
 
 ## Acknowledgements
