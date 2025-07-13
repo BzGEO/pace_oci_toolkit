@@ -40,7 +40,7 @@ To add the code repository 💾 directly to your GEE account, use the following 
 
 ## Methods: Workflow for getting PACE OCI land data into GEE
 
-The following is a graphical representation of the process for ingesting the PACE OCI land data into GEE:
+The following is a graphical representation of the process for ingesting the PACE OCI land data into GEE. An [R script](https://github.com/BzGEO/pace_oci_conversion) was used for batch processing of the PACE OCI vegetation index data that were ingested into GEE.
 
 ![](https://github.com/BzGEO/pace_oci_toolkit/blob/main/_graphics/pace_gee_processing_v20250630.png)
 
