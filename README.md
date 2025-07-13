@@ -27,12 +27,16 @@ The scripts are divided into the following main functions:
 ## 📢 Add this repo to Google Earth Engine 📢
 To add the code repository 💾 directly to your GEE account, use the following *bit.ly* 🔗: https://bit.ly/gee_repo_pace_oci.
 
+![](https://github.com/BzGEO/pace_oci_toolkit/blob/main/_graphics/pace_oci_global_in_gee_2025-05.PNG)
+
 ## Additional information
 1. A video 🎥 overview of the tools is provided in the third part of the following, from the [2nd PACE Land data Users' Group (PLUG) meeting](https://pace.oceansciences.org/events_more.htm?id=77) on *1 July 2025*: https://www.youtube.com/watch?v=hOu8rPd_x6I.
 2. More information on the PLUG can be found at: https://pace.oceansciences.org/event_archive/landDataUserGroup.htm.
 3. More information on PACE's data products can be found at: https://pace.oceansciences.org/data_table.htm.
 
-## Workflow for getting PACE OCI land data into GEE
+![](https://github.com/BzGEO/pace_oci_toolkit/blob/main/_graphics/pace_plug.png)
+
+## Methods: Workflow for getting PACE OCI land data into GEE
 
 The following is a graphical representation of the process for ingesting the PACE OCI land data into GEE:
 
