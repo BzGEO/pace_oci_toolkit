@@ -1,6 +1,6 @@
 # the PACE OCI Toolkit
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15824918.svg)](https://doi.org/10.5281/zenodo.15824918)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15873995.svg)](https://doi.org/10.5281/zenodo.15873995)
 [![Update](https://img.shields.io/github/last-commit/bzgeo/pace_oci_toolkit?label=repo%20last%20updated&style=flat-square)](https://github.com/BzGEO/pace_oci_toolkit/tree/main)
 ![Visitor Badge](https://visitor-badge.laobi.icu/badge?page_id=bzgeo.pace_oci_toolkit)
 
@@ -51,9 +51,9 @@ This work was initially [soft-launched](https://bit.ly/sbg_tim_2025_pace_tk) on 
 
 If this toolkit is used in publications, presentations, or other venues, please cite 📝 the following:
 
-Cherrington, E. (2025). PACE OCI data Toolkit (Version 1.0.0.1) [Computer software]. https://doi.org/10.5281/zenodo.15824918
+Cherrington, E. (2025). PACE OCI data Toolkit (Version 1.0.0.1) [Computer software]. https://doi.org/10.5281/zenodo.15873995
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15824918.svg)](https://doi.org/10.5281/zenodo.15824918)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15873995.svg)](https://doi.org/10.5281/zenodo.15873995)
 
 ## Contact information
 
