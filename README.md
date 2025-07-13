@@ -24,6 +24,8 @@ The scripts are divided into the following main functions:
 
 **(vi) Image classification** (*for basic unsupervised learning classification of PACE OCI data*)
 
+![](https://github.com/BzGEO/pace_oci_toolkit/blob/main/_graphics/pace_oci_gee_toolkit_structure_2025-07-13.PNG)
+
 ## 📢 Add this repo to Google Earth Engine 📢
 To add the code repository 💾 directly to your GEE account, use the following *bit.ly* 🔗: https://bit.ly/gee_repo_pace_oci.
 
