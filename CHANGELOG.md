@@ -5,7 +5,7 @@
 
 ## Updates: 16.07.2025 - LandVI 8D data updated through 11.07.2025; monthly LandVI estimate for June 2025 generated
 1. The LandVI 8D data for the period 04.07.2025-11.07.2025 (period 62) has been integrated.
-2. I have added a provisional monthly dataset for June 2025, based on periods 58 to 61 (i.e., a median covering 2 June to 3 July 2025). The official June 2025 monthly products for LandVI and SFREFL are still not yet available.
+2. I have added a provisional monthly dataset for June 2025, based on periods 58 to 61 (i.e., a **median** covering 2 June to 3 July 2025). The official June 2025 monthly products for LandVI and SFREFL are still not yet available.
 3. The [reference dependency](https://code.earthengine.google.com/?scriptPath=users%2Fbzgeo%2Fhyperspectral_toolkit%3A00_pkg%2Fref_data_pace_oci.js) has been updated.
 
 ## Updates: 14.07.2025 - LandVI 8D data updated through 03.07.2025
