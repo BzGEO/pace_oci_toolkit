@@ -1,0 +1,252 @@
+// Checking data over known location of change
+
+//Authors: Africa I. Flores-Anderson & Emil Cherrington 
+//Updated: July 21, 2025 
+
+/////////////////////////////////////////////////////////////
+
+var pt = ee.Geometry.Point([-121.678, 40.0244]);  // Park Fire 
+Map.centerObject(pt, 10);
+/*
+The Park Fire in California started on Wednesday, July 24, 2024. 
+It was a very large wildfire that affected Butte and Tehama counties. 
+The fire was later contained on Thursday, September 26, 2024
+*/
+
+// 1: LOAD DEPENDENCIES, INCLUDING EMIT / PACE PACKAGE
+var a = require('users/bzgeo/hyperspectral_toolkit:00_pkg/emit_hyperion_pace.js');
+var b = require('users/bzgeo/hyperspectral_toolkit:00_pkg/ref_data_pace_oci.js');
+
+var newPace = require('users/servirbz/pace_oci:EMIT_PACE_Tutorial_00').paceBands;
+var newEmit = require('users/servirbz/pace_oci:EMIT_PACE_Tutorial_00').stringBands;
+var oldEmit = require('users/servirbz/pace_oci:EMIT_PACE_Tutorial_00').emit_bands
+
+
+// 2: DEFINE REGION OF INTEREST AND SPECIFIC SITES
+
+var roi = ee.Geometry.Polygon([[[-122.515729296875, 40.64257773046998],[-122.515729296875, 39.50347344333871],
+          [-120.867780078125, 39.50347344333871],[-120.867780078125, 40.64257773046998]]], null, false);
+
+//3. Search EMIT data available 
+
+var start_date = '2024-04-01';
+var end_date = '2025-10-01';
+
+var emit = ee.ImageCollection("NASA/EMIT/L2A/RFL")
+            .filterDate(start_date , end_date)
+            .filterBounds(pt);
+
+print(emit, 'EMIT Park Fire');
+
+// 4: DEFINE DATES FOR EXTRACTION OF EMIT DATA
+
+
+var date1 = "2024-06-22"; // 
+var date2 = "2025-05-23"; // 
+var date3 = "2024-08-28"; // 
+
+Map.addLayer(b.pace_oci_conus_west_20240622, a.viz3, 'PACE OCI SR - '+date1, 0);
+Map.addLayer(b.pace_oci_conus_west_20240828, a.viz3, 'PACE OCI SR - '+date3, 0);
+Map.addLayer(b.pace_oci_conus_west_20250523, a.viz3, 'PACE OCI SR - '+date2, 0);
+
+Map.addLayer(a.emit_sr(roi, date1), a.viz1_emit, 'EMIT SR - '+date1, 0);
+Map.addLayer(a.emit_sr(roi, date2), a.viz1_emit, 'EMIT SR - '+date2, 1);
+
+//*****************Plot PACE spectra
+//Get PACE band names
+var pace_bands = b.pace_oci_conus_west_20240622.bandNames()
+
+
+// Extract the pixel values.
+function pace_spectra (image){
+  var spectralValuesP = image.reduceRegion({
+  reducer: ee.Reducer.first(),
+  geometry: pt,
+  scale: 1200});
+  return spectralValuesP
+}
+
+function newnamePACE (image){
+  return image.select(pace_bands).rename(newPace)
+}
+
+var pre_firePACE = newnamePACE(b.pace_oci_conus_west_20240622)
+    pre_firePACE = pace_spectra(pre_firePACE)
+
+var post_firePACE = newnamePACE(b.pace_oci_conus_west_20250523)
+    post_firePACE = pace_spectra(post_firePACE)
+    
+//print(pre_firePACE, 'vals');
+
+
+// Convert PACE spectral values to an array
+function extracValsPace (object){
+  var valuesPace = ee.List(newPace.map(function(reflec) {
+  var pace_ref = object.get(reflec)
+      pace_ref = ee.Number(pace_ref).divide(10000) //de-scaled
+  return pace_ref}))
+  return valuesPace
+}
+
+var prefirePacevals = extracValsPace(pre_firePACE)
+var postfirePacevals = extracValsPace(post_firePACE)
+
+// var valuesPace = ee.List(newPace.map(function(reflec) {
+//   var pace_ref = pre_firePACE.get(reflec)
+//       pace_ref = ee.Number(pace_ref).divide(10000) //de-scaled
+//   return pace_ref
+// }));
+
+//print(valuesPace, 'pace ref')
+
+var wave = require('users/africafanderson/EMIT_PACE:00_wavelengths').wl_pace
+
+// Plot PACE spectra for location 
+var chart0 = ui.Chart.array.values({
+  array: prefirePacevals,
+  axis: 0,
+  xLabels: wave
+}).setChartType('LineChart')
+  .setOptions({
+    title: 'PACE Pre-Fire Spectral Profile at Point',
+    hAxis: {
+      title: 'Wavelength nm', 
+      ticks: wave,
+      viewWindowMode: 'explicit', // for setting limits
+      viewWindow: {
+        min: 400, // Set your desired minimum wavelength
+        max: 2258  // Set your desired maximum wavelength
+      }
+    },
+    vAxis: { title: 'Reflectance' },
+    lineWidth: 1,
+    pointSize: 0,
+    colors: ['black'],
+    curveType: 'none'
+  });
+
+// Display the chart
+print(chart0);
+
+var chart0 = ui.Chart.array.values({
+  array: postfirePacevals,
+  axis: 0,
+  xLabels: wave
+}).setChartType('LineChart')
+  .setOptions({
+    title: 'PACE Post-Fire Spectral Profile at Point',
+    hAxis: {
+      title: 'Wavelength nm', 
+      ticks: wave,
+      viewWindowMode: 'explicit', // for setting limits
+      viewWindow: {
+        min: 400, // Set your desired minimum wavelength
+        max: 2258  // Set your desired maximum wavelength
+      }
+    },
+    vAxis: { title: 'Reflectance' },
+    lineWidth: 1,
+    pointSize: 0,
+    colors: ['black'],
+    curveType: 'none'
+  });
+
+// Display the chart
+print(chart0);
+
+//***********Plot EMIT spectra 
+
+function newnameEMIT (image){
+  return ee.Image(image).select(oldEmit).rename(newEmit)
+}
+
+// Extract the pixel values.
+function emit_spectra (image){
+  var spectralValuesE = image.select(newEmit).reduceRegion({
+  reducer: ee.Reducer.first(),
+  geometry: pt,
+  scale: 60})
+  return spectralValuesE
+}
+  
+var asDate1 = ee.Date(date1)
+var asDate2 = ee.Date(date2)
+
+var pre_fireEMIT = emit.filterDate(asDate1.advance(-5, 'day'), asDate1.advance(5, 'day'))
+    pre_fireEMIT = newnameEMIT(pre_fireEMIT.first())
+    pre_fireEMIT = emit_spectra(pre_fireEMIT)
+
+var post_fireEMIT = emit.filterDate(asDate2.advance(-5, 'day'), asDate2.advance(5, 'day'))
+    post_fireEMIT = newnameEMIT(post_fireEMIT.first())
+    post_fireEMIT = emit_spectra(post_fireEMIT)
+
+// Convert PACE spectral values to an array
+function extracValsEmit (object){
+  var valuesEmit = ee.List(newEmit.map(function(reflec) {
+  var emit_ref = object.get(reflec)
+      //emit_ref = ee.Number(emit_ref).divide(10000) //de-scaled
+  return emit_ref}))
+  return valuesEmit
+}
+
+var prefireEmitvals = extracValsEmit(pre_fireEMIT)
+var postfireEmitvals = extracValsEmit(post_fireEMIT)
+
+var emit_wavel = require('users/servirbz/pace_oci:EMIT_PACE_Tutorial_00').emit_wavel
+
+
+// Plot PACE spectra for location 
+var chart1 = ui.Chart.array.values({
+  array: prefireEmitvals,
+  axis: 0,
+  xLabels: emit_wavel 
+}).setChartType('LineChart')
+  .setOptions({
+    title: 'EMIT Pre-Fire Spectral Profile at Point',
+    hAxis: {
+      title: 'Wavelength nm', 
+      ticks: emit_wavel ,
+      viewWindowMode: 'explicit', // for setting limits
+      viewWindow: {
+        min: 400, // Set your desired minimum wavelength
+        max: 2500  // Set your desired maximum wavelength
+      }
+    },
+    vAxis: { title: 'Reflectance' },
+    lineWidth: 1,
+    pointSize: 0,
+    colors: ['black'],
+    curveType: 'none'
+  });
+
+// Display the chart
+print(chart1);
+
+
+var chart1 = ui.Chart.array.values({
+  array: postfireEmitvals,
+  axis: 0,
+  xLabels: emit_wavel 
+}).setChartType('LineChart')
+  .setOptions({
+    title: 'EMIT Pre-Fire Spectral Profile at Point',
+    hAxis: {
+      title: 'Wavelength nm', 
+      ticks: emit_wavel ,
+      viewWindowMode: 'explicit', // for setting limits
+      viewWindow: {
+        min: 400, // Set your desired minimum wavelength
+        max: 2500  // Set your desired maximum wavelength
+      }
+    },
+    vAxis: { title: 'Reflectance' },
+    lineWidth: 1,
+    pointSize: 0,
+    colors: ['black'],
+    curveType: 'none'
+  });
+
+// Display the chart
+print(chart1);
+
+/////////////END///////////////////////

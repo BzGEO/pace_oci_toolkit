@@ -1,4 +1,4 @@
-// Last updated: 09.05.2025
+// Last updated: 21.07.2025
 
 var a = require('users/servirbz/packages:bz/bz');
 var b = require('users/bzgeo/hyperspectral_toolkit:00_pkg/ref_data_pace_oci.js');
@@ -42,6 +42,8 @@ Map.addLayer(b.pace_oci_mt_mes_202412, b.viz3_, "PACE OCI SR (4km) - Dec. 2024",
 Map.addLayer(b.pace_oci_mt_mes_202501, b.viz3_, "PACE OCI SR (4km) - Jan. 2025", 0);
 Map.addLayer(b.pace_oci_mt_mes_202502, b.viz3_, "PACE OCI SR (4km) - Feb. 2025", 0);
 Map.addLayer(b.pace_oci_mt_mes_202503, b.viz3_, "PACE OCI SR (4km) - March 2025", 0);
+Map.addLayer(b.pace_oci_mt_mes_202504, b.viz3_, "PACE OCI SR (4km) - April 2025", 0);
+Map.addLayer(b.pace_oci_mt_mes_202505, b.viz3_, "PACE OCI SR (4km) - May 2025", 0);
 
 Map.addLayer(a.bnds_w2,{palette: "white"},"Int'l boundaries (white)", 1);
 Map.addLayer(a.bnds_w2,{palette: "black"},"Int'l boundaries (black)", 0);

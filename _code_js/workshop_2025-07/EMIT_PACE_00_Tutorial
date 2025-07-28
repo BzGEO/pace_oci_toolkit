@@ -1,0 +1,301 @@
+//Author: Africa I. Flores-Anderson (africa.flores@nasa.gov)
+//Updated: July 20, 2025 
+//Functions 
+/********* DATA Comparison EMIT and PACE ******************/
+
+/* 
+First we will explore recent EMIT and PACE data available over an agricultural area. 
+*/
+
+//1. Load required dependencies 
+var a = require('users/bzgeo/hyperspectral_toolkit:00_pkg/emit_hyperion_pace.js');
+
+//2. Load auxilery data such as Land cover data 
+// Import the NALCMS image.
+var nlcd = ee.Image('USGS/NLCD_RELEASES/2020_REL/NALCMS');
+
+// Map.addLayer(nlcd,
+//   {
+//     palette: [
+//       '033e00',  // 1  Temperate or sub-polar needleleaf forest
+//       '939b71',  // 2  Sub-polar taiga needleleaf forest
+//       '196d12',  // 3  Tropical or sub-tropical broadleaf evergreen forest
+//       '1fab01',  // 4  Tropical or sub-tropical broadleaf deciduous forest
+//       '5b725c',  // 5  Temperate or sub-polar broadleaf deciduous forest
+//       '6b7d2c',  // 6  Mixed forest
+//       'b29d29',  // 7  Tropical or sub-tropical shrubland
+//       'b48833',  // 8  Temperate or sub-polar shrubland
+//       'e9da5d',  // 9  Tropical or sub-tropical grassland
+//       'e0cd88',  // 10  Temperate or sub-polar grassland
+//       'a07451',  // 11  Sub-polar or polar shrubland-lichen-moss
+//       'bad292',  // 12  Sub-polar or polar grassland-lichen-moss
+//       '3f8970',  // 13  Sub-polar or polar barren-lichen-moss
+//       '6ca289',  // 14  Wetland
+//       'e6ad6a',  // 15  Cropland
+//       'a9abae',  // 16  Barren land
+//       'db2126',  // 17  Urban and built-up
+//       '4c73a1',  // 18  Water
+//       'fff7fe',  // 19  Snow and ice
+//     ],
+//   min: 1,
+//   max: 19,
+//   }, 'NALCMS Land Cover 2020');
+
+
+//3. Agriculture location of interest and time frame
+var pt_ag = ee.Geometry.Point([-92.0217, 15.824])
+// Map.addLayer(pt_ag, {}, "00. Agricultural point")
+
+// Map.centerObject(pt_ag, 10);
+
+var start_date = '2025-01-01';
+var end_date = '2025-05-30';
+
+//3. ******************EMIT DATA******************************* 
+//We will use EMIT Surface Reflectance Product
+//ATBD: https://lpdaac.usgs.gov/documents/1571/EMITL2A_ATBD_v1.pdf 
+
+var emit_data = ee.ImageCollection("NASA/EMIT/L2A/RFL")
+  .filterDate(start_date , end_date)
+  .filterBounds(pt_ag);
+  
+//print(emit_data)  //Explore data structure 
+
+//3.1 Select image and bands of interest
+var emit_img = emit_data.first();
+
+    emit_img = emit_img.select(ee.List.sequence(0, 578))//change later
+                //.multiply(10000).toInt16()
+                .set('system:time_start', emit_img.get('system:time_start'));
+
+//Let's plot the EMIT Image
+var true_emit = {
+  bands: ['reflectance_34','reflectance_20','reflectance_10'],
+  min: 0.009,
+  max: 0.29,
+};
+
+// Map.addLayer(emit_img, true_emit, "01. EMIT true color")
+
+// //Using Emil's hyperspectral toolkit
+// Map.addLayer(emit_img, a.viz1b_emit, "02. EMIT false color")
+
+//3.2 Select and visualize cloud band for EMIT
+var emit_clflag = emit_img.select('cloud_flag')
+// Map.addLayer(emit_clflag, {}, '02.1 Cloud flag')
+
+//3.3 Create function to invert the cloud mask and apply it 
+function emit_clouds (img){
+  var cloud_mask = img.select('cloud_flag').not()
+  var apply_mask = img.updateMask(cloud_mask)
+  return apply_mask.set('system:time_start', img.get('system:time_start'))
+}
+
+//Apply mask to image
+var emit_cfree = emit_clouds(emit_img)
+// Map.addLayer(emit_cfree, a.viz1b_emit, '02.2 EMIT false color cloudmasked')
+
+//3.4 If clouds are not perfectly masked you can apply a buffer -
+function emit_clouds_buffer (img){
+  var cloud_pixels = img.select('cloud_flag').eq(1)
+  var bufferRadius = 100; // in meters
+  var bufferedPixels = cloud_pixels.focal_max({
+    radius: bufferRadius,
+    kernelType: 'square',
+    units: 'meters',
+  });
+  var cloud_mask = bufferedPixels.not()
+  var apply_mask = img.updateMask(cloud_mask)
+  return apply_mask.set('system:time_start', img.get('system:time_start'))
+}
+
+//Apply masked buffer to image and plot it 
+var emit_cfree_buf = emit_clouds_buffer(emit_img)
+// Map.addLayer(emit_cfree_buf, a.viz1b_emit, '02.3 EMIT false color cloud-masked + buffer')
+
+//4. Read and apply EMIT band names 
+var emit_bands = emit_img.select(ee.List.sequence(0, 284)).bandNames()
+exports.emit_bands = emit_bands
+
+var emit_wavel = ee.List(emit_img.get('reflectance_wavelengths'))
+exports.emit_wavel = emit_wavel
+// print(emit_wavel, 'emit_wavel from properties')
+
+// Use map() to iterate over the list and convert each number to a string and create new list.
+var stringBands = emit_wavel.map(function(number) {
+  var wavel = ee.String(number)
+  return ee.String('SR_').cat(wavel.split('\\.').get(0))
+});
+
+exports.stringBands = stringBands
+//Rename image with more intuitive band names
+var emit_renamed = emit_img.select(emit_bands).rename(stringBands);
+
+//If you want to check the new bands names:
+var new_emitB = emit_renamed.bandNames()
+// print(new_emitB, 'New EMIT band names')
+
+//5. Now let's plot spectra for a given location
+// Extract the pixel values.
+var spectralValues = emit_renamed.select(new_emitB).reduceRegion({
+  reducer: ee.Reducer.first(),
+  geometry: pt_ag,
+  scale: 60
+});
+
+// Convert spectral values to an array
+var values = ee.List(new_emitB.map(function(band) {
+  return spectralValues.get(band);
+}));
+
+  
+// Plot spectra for location 
+var chart = ui.Chart.array.values({
+  array: values,
+  axis: 0,
+  xLabels: emit_wavel
+}).setChartType('LineChart')
+  .setOptions({
+    title: 'EMIT - Spectral Profile at Point',
+    hAxis: {
+      title: 'Wavelength nm', 
+      ticks: emit_wavel,
+      viewWindowMode: 'explicit', // Crucial for setting limits
+      viewWindow: {
+        min: 400, // Set your desired minimum wavelength
+        max: 900 } // Set your desired maximum wavelength
+    },
+    vAxis: { title: 'Reflectance' },
+    lineWidth: 1,
+    pointSize: 0,
+    colors: ['black'],
+    curveType: 'none'
+  });
+
+// Display the chart
+// print(chart);
+
+//6. ****************PACE data*****************//
+//Call PACE Image from Emil's asset 
+var pace_img = ee.Image('projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_sr/mesoamerica_01km/mes_pace_oci_sr_v3_20240309_1km')
+// print(pace_img, 'pace img 1km')
+
+
+//Plot PACE image
+// Map.addLayer(pace_img, a.viz3, "03. PACE OCI SR - 9 March 2024");
+
+//6.1 *******PACE renamed********
+//List of PACE wavelengths 
+var wave = require('users/africafanderson/EMIT_PACE:00_wavelengths').wl_pace
+// print(wave, 'wavelength pace')
+
+//Get PACE band names
+var pace_bands = pace_img.bandNames()
+
+// Use map() to iterate over the list and convert each number to a string.
+var paceBands = wave.map(function(number) {
+  var wavel = ee.String(number)
+  return ee.String('SR_').cat(wavel)
+});
+
+exports.paceBands = paceBands
+
+//Rename bands with more intuitive name
+var pace_renamed = pace_img.select(pace_bands).rename(paceBands);
+
+//If you want to check the new bands names for PACE:
+var new_paceB = pace_renamed.bandNames()
+// print(new_paceB, 'New PACE band names')
+
+
+//6.2 Now let's plot PACE spectra for a given location
+// Extract the pixel values.
+var spectralValuesP = pace_renamed.select(new_paceB).reduceRegion({
+  reducer: ee.Reducer.first(),
+  geometry: pt_ag,
+  scale: 1200
+});
+
+// Convert PACE spectral values to an array
+var valuesP = ee.List(new_paceB.map(function(reflec) {
+  var pace_ref = spectralValuesP.get(reflec)
+      pace_ref = ee.Number(pace_ref).divide(10000) //de-scaled
+  return pace_ref
+}));
+
+    
+    
+// Plot PACE spectra for location 
+var chart2 = ui.Chart.array.values({
+  array: valuesP,
+  axis: 0,
+  xLabels: wave
+}).setChartType('LineChart')
+  .setOptions({
+    title: 'PACE - Spectral Profile at Point',
+    hAxis: {
+      title: 'Wavelength nm', 
+      ticks: wave,
+      viewWindowMode: 'explicit', // Crucial for setting limits
+      viewWindow: {
+        min: 400, // Set your desired minimum wavelength
+        max: 900  // Set your desired maximum wavelength
+      }
+    },
+    vAxis: { title: 'Reflectance' },
+    lineWidth: 1,
+    pointSize: 0,
+    colors: ['black'],
+    curveType: 'none'
+  });
+
+// Display the chart
+// print(chart2);
+
+// 7. ********* Calculate Hyperspectral indices ***************
+
+//7.0 Palettes 
+var palettes = require('users/gena/packages:palettes');
+var palette = palettes.matplotlib.magma[7];
+var pal_viridis = palettes.matplotlib.viridis[7];
+
+// 7.1 for PACE
+//Carotenoid Content Index (Car) uses 495, 705, 800
+// CAR = [1/495 - 1/705] * 800
+
+// Chlorophyll Index Red Edge (CIRE)
+//CIRE = (800/705) -1 
+
+var car_pace = pace_renamed.expression(
+    '((1/SR_495) - (1/SR_705))* SR_800', {
+      'SR_495': pace_renamed.select('SR_495'),
+      'SR_705': pace_renamed.select('SR_704'),
+      'SR_800': pace_renamed.select('SR_804')
+});
+
+var cire_pace = pace_renamed.expression(
+    '(SR_800/SR_705) - 1', {
+      'SR_705': pace_renamed.select('SR_704'),
+      'SR_800': pace_renamed.select('SR_804')
+});
+
+// Map.addLayer(car_pace, {min: 0, max: 8, palette: palette}, '4.1 CAR PACE');
+// Map.addLayer(cire_pace, {min: 0, max: 4, palette: pal_viridis}, '4.2 CIRE PACE');
+
+// 7.2 for EMIT
+// var car_emit = emit_renamed.expression(
+//     '((1/SR_495) - (1/SR_705))* SR_800', {
+//       'SR_495': emit_renamed.select('SR_492'),
+//       'SR_705': emit_renamed.select('SR_708'),
+//       'SR_800': emit_renamed.select('SR_805')
+// });
+
+// var cire_emit = emit_renamed.expression(
+//     '(SR_800/SR_705) - 1', {
+//       'SR_705': emit_renamed.select('SR_708'),
+//       'SR_800': emit_renamed.select('SR_805')
+// });
+
+////////
+
+

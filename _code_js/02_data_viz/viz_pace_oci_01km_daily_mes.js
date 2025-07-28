@@ -2,7 +2,7 @@
 var eco1 = ee.FeatureCollection("projects/sica/compil_ecosistemas/terrestres/cam_ecosys_wb_c2000_v1"),
     eco2 = ee.FeatureCollection("projects/sica/compil_ecosistemas/terrestres/cam_ecosys_wb_c2000_v2");
 /***** End of imports. If edited, may not auto-convert in the playground. *****/
-// Visualize PACE OCI monthly surface reflectance mosaics
+// Visualize PACE OCI daily surface reflectance data
 // Last updated: 18.06.2025
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////

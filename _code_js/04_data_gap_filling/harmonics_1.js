@@ -1,87 +1,26 @@
 /**** Start of imports. If edited, may not auto-convert in the playground. ****/
 var roi = ee.FeatureCollection("projects/bz-sdg/aoi/aoi_globe");
 /***** End of imports. If edited, may not auto-convert in the playground. *****/
-// Last updated: 24.03.2025
+// Last updated: 14.07.2025
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 var a = require('users/servirbz/packages:temporal_reduction');
+var b = require('users/bzgeo/hyperspectral_toolkit:00_pkg/ref_data_pace_oci.js');
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-var img1 = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/paci_oci_vi/8day_4km/vi_01_ndvi_b60_4km"),
-    img2 = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/paci_oci_vi/8day_4km/vi_02_evi_b60_4km"),
-    img3 = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/paci_oci_vi/8day_4km/vi_05_cci_b60_4km"),
-    img4 = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/paci_oci_vi/8day_4km/vi_07_cire_b60_4km"),
-    img5 = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/paci_oci_vi/8day_4km/vi_08_car_b60_4km"),
-    img6 = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/paci_oci_vi/8day_4km/vi_09_mari_b60_4km"),
-    img7 = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_vi/8day_4km/vi_10_pri_b60_4km");
+// VIs 1: NDVI; 2: EVI; 3: CCI; 4: CIRE; 5: CAR; 6: mARI; 7: PRI
+var vi_all = b.pace_oci_8d_global_vi; // VIs: NDVI, EVI, CCI, CIRE, CAR, mARI, PRI
+print(vi_all);
 
-var vi = img7; // 1: NDVI; 2: EVI; 3: CCI; 4: CIRE; 5: CAR; 6: mARI; 7: PRI
-
-//////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
-var vi01 = vi.select([0]).rename('vi_01').set('system:time_start',ee.Date.fromYMD(2024,3,12).millis());
-var vi02 = vi.select([1]).rename('vi_02').set('system:time_start',ee.Date.fromYMD(2024,3,20).millis());
-var vi03 = vi.select([2]).rename('vi_03').set('system:time_start',ee.Date.fromYMD(2024,3,28).millis());
-var vi04 = vi.select([3]).rename('vi_04').set('system:time_start',ee.Date.fromYMD(2024,4,5).millis());
-var vi05 = vi.select([4]).rename('vi_05').set('system:time_start',ee.Date.fromYMD(2024,4,13).millis());
-var vi06 = vi.select([5]).rename('vi_06').set('system:time_start',ee.Date.fromYMD(2024,4,21).millis());
-var vi07 = vi.select([6]).rename('vi_07').set('system:time_start',ee.Date.fromYMD(2024,4,29).millis());
-var vi08 = vi.select([7]).rename('vi_08').set('system:time_start',ee.Date.fromYMD(2024,5,7).millis());
-var vi09 = vi.select([8]).rename('vi_09').set('system:time_start',ee.Date.fromYMD(2024,5,15).millis());
-var vi10 = vi.select([9]).rename('vi_10').set('system:time_start',ee.Date.fromYMD(2024,5,23).millis());
-
-var vi11 = vi.select([10]).rename('vi_11').set('system:time_start',ee.Date.fromYMD(2024,5,31).millis());
-var vi12 = vi.select([11]).rename('vi_12').set('system:time_start',ee.Date.fromYMD(2024,6,8).millis());
-var vi13 = vi.select([12]).rename('vi_13').set('system:time_start',ee.Date.fromYMD(2024,6,16).millis());
-var vi14 = vi.select([13]).rename('vi_14').set('system:time_start',ee.Date.fromYMD(2024,6,24).millis());
-var vi15 = vi.select([14]).rename('vi_15').set('system:time_start',ee.Date.fromYMD(2024,7,2).millis());
-var vi16 = vi.select([15]).rename('vi_16').set('system:time_start',ee.Date.fromYMD(2024,7,10).millis());
-var vi17 = vi.select([16]).rename('vi_17').set('system:time_start',ee.Date.fromYMD(2024,7,18).millis());
-var vi18 = vi.select([17]).rename('vi_18').set('system:time_start',ee.Date.fromYMD(2024,7,26).millis());
-var vi19 = vi.select([18]).rename('vi_19').set('system:time_start',ee.Date.fromYMD(2024,8,3).millis());
-var vi20 = vi.select([19]).rename('vi_20').set('system:time_start',ee.Date.fromYMD(2024,8,11).millis());
-
-var vi21 = vi.select([20]).rename('vi_21').set('system:time_start',ee.Date.fromYMD(2024,8,19).millis());
-var vi22 = vi.select([21]).rename('vi_22').set('system:time_start',ee.Date.fromYMD(2024,8,27).millis());
-var vi23 = vi.select([22]).rename('vi_23').set('system:time_start',ee.Date.fromYMD(2024,9,4).millis());
-var vi24 = vi.select([23]).rename('vi_24').set('system:time_start',ee.Date.fromYMD(2024,9,12).millis());
-var vi25 = vi.select([24]).rename('vi_25').set('system:time_start',ee.Date.fromYMD(2024,9,20).millis());
-var vi26 = vi.select([25]).rename('vi_26').set('system:time_start',ee.Date.fromYMD(2024,9,28).millis());
-var vi27 = vi.select([26]).rename('vi_27').set('system:time_start',ee.Date.fromYMD(2024,10,6).millis());
-var vi28 = vi.select([27]).rename('vi_28').set('system:time_start',ee.Date.fromYMD(2024,10,14).millis());
-var vi29 = vi.select([28]).rename('vi_29').set('system:time_start',ee.Date.fromYMD(2024,10,22).millis());
-var vi30 = vi.select([29]).rename('vi_30').set('system:time_start',ee.Date.fromYMD(2024,10,30).millis());
-
-var vi31 = vi.select([30]).rename('vi_31').set('system:time_start',ee.Date.fromYMD(2024,11,7).millis());
-var vi32 = vi.select([31]).rename('vi_32').set('system:time_start',ee.Date.fromYMD(2024,11,15).millis());
-var vi33 = vi.select([32]).rename('vi_33').set('system:time_start',ee.Date.fromYMD(2024,11,23).millis());
-var vi34 = vi.select([33]).rename('vi_34').set('system:time_start',ee.Date.fromYMD(2024,12,1).millis());
-var vi35 = vi.select([34]).rename('vi_35').set('system:time_start',ee.Date.fromYMD(2024,12,9).millis());
-var vi36 = vi.select([35]).rename('vi_36').set('system:time_start',ee.Date.fromYMD(2024,12,17).millis());
-var vi37 = vi.select([36]).rename('vi_37').set('system:time_start',ee.Date.fromYMD(2024,12,25).millis());
-var vi38 = vi.select([37]).rename('vi_38').set('system:time_start',ee.Date.fromYMD(2024,12,31).millis());
-var vi39 = vi.select([38]).rename('vi_39').set('system:time_start',ee.Date.fromYMD(2025,1,8).millis());
-var vi40 = vi.select([39]).rename('vi_40').set('system:time_start',ee.Date.fromYMD(2025,1,16).millis());
-
-var vi41 = vi.select([40]).rename('vi_41').set('system:time_start',ee.Date.fromYMD(2025,1,24).millis());
-var vi42 = vi.select([41]).rename('vi_42').set('system:time_start',ee.Date.fromYMD(2025,2,1).millis());
-var vi43 = vi.select([42]).rename('vi_43').set('system:time_start',ee.Date.fromYMD(2025,2,9).millis());
-var vi44 = vi.select([43]).rename('vi_44').set('system:time_start',ee.Date.fromYMD(2025,2,17).millis());
-var vi45 = vi.select([44]).rename('vi_45').set('system:time_start',ee.Date.fromYMD(2025,2,25).millis());
-var vi46 = vi.select([45]).rename('vi_46').set('system:time_start',ee.Date.fromYMD(2025,3,5).millis());
-var vi47 = vi.select([46]).rename('vi_47').set('system:time_start',ee.Date.fromYMD(2025,3,13).millis());
-var vi48 = vi.select([47]).rename('vi_48').set('system:time_start',ee.Date.fromYMD(2025,3,21).millis());
-
-// Convert set of individual images into an image collection
-vi = ee.ImageCollection.fromImages(
-[vi01,vi02,vi03,vi04,vi05,vi06,vi07,vi08,vi09,vi10,
-vi11,vi12,vi13,vi14,vi15,vi16,vi17,vi18,vi19,vi20,
-vi21,vi22,vi23,vi24,vi25,vi26,vi27,vi28,vi29,vi30,
-vi31,vi32,vi33,vi34,vi35,vi36,vi37,vi38,vi39,vi40,
-vi41,vi42,vi43,vi44,vi45,vi46,vi47,vi48])
-.map(function(img){return img.select(['vi_.*'],['vi'])});
-
+var vi = b.pace_oci_8d_global_ndvi.map(function(img){return img.select(['ndvi.*'],['vi'])});
 print(vi);
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+// Harmonic modeling work based on Google's Landsat-8 harmonic modeling script:
+// https://code.earthengine.google.com/?scriptPath=Examples%3ADemos%2FLandsat8%20Harmonic%20Modeling
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -135,53 +74,61 @@ print(ui.Chart.image.series(fittedHarmonic.select(['fitted',dependent]), pt, ee.
 
 // Composite data
 var fitted = a.temp_red(fittedHarmonic.select(['fitted']), 1, 12, 2024, 2025);
+print(fitted);
 
-var f03 = fitted.filterDate("2024-03-01","2024-03-31").median().select(["fitted"],["m03_"+dependent]);
-var f04 = fitted.filterDate("2024-04-01","2024-04-30").median().select(["fitted"],["m04_"+dependent]);
-var f05 = fitted.filterDate("2024-05-01","2024-05-31").median().select(["fitted"],["m05_"+dependent]);
-var f06 = fitted.filterDate("2024-06-01","2024-06-30").median().select(["fitted"],["m06_"+dependent]);
-var f07 = fitted.filterDate("2024-07-01","2024-07-31").median().select(["fitted"],["m07_"+dependent]);
-var f08 = fitted.filterDate("2024-08-01","2024-08-31").median().select(["fitted"],["m08_"+dependent]);
-var f09 = fitted.filterDate("2024-09-01","2024-09-30").median().select(["fitted"],["m09_"+dependent]);
-var f10 = fitted.filterDate("2024-10-01","2024-10-31").median().select(["fitted"],["m10_"+dependent]);
-var f11 = fitted.filterDate("2024-11-01","2024-11-30").median().select(["fitted"],["m11_"+dependent]);
-var f12 = fitted.filterDate("2024-12-01","2024-12-31").median().select(["fitted"],["m12_"+dependent]);
-var f01 = fitted.filterDate("2025-01-01","2025-01-31").median().select(["fitted"],["m01_"+dependent]);
-var f02 = fitted.filterDate("2025-02-01","2025-02-28").median().select(["fitted"],["m02_"+dependent]);
+var m01 = fitted.filterDate("2024-03-01","2024-03-31").median().select(["fitted"],["m01_"+dependent]);
+var m02 = fitted.filterDate("2024-04-01","2024-04-30").median().select(["fitted"],["m02_"+dependent]);
+var m03 = fitted.filterDate("2024-05-01","2024-05-31").median().select(["fitted"],["m03_"+dependent]);
+var m04 = fitted.filterDate("2024-06-01","2024-06-30").median().select(["fitted"],["m04_"+dependent]);
+var m05 = fitted.filterDate("2024-07-01","2024-07-31").median().select(["fitted"],["m05_"+dependent]);
+var m06 = fitted.filterDate("2024-08-01","2024-08-31").median().select(["fitted"],["m06_"+dependent]);
+var m07 = fitted.filterDate("2024-09-01","2024-09-30").median().select(["fitted"],["m07_"+dependent]);
+var m08 = fitted.filterDate("2024-10-01","2024-10-31").median().select(["fitted"],["m08_"+dependent]);
+var m09 = fitted.filterDate("2024-11-01","2024-11-30").median().select(["fitted"],["m09_"+dependent]);
+var m10 = fitted.filterDate("2024-12-01","2024-12-31").median().select(["fitted"],["m10_"+dependent]);
+var m11 = fitted.filterDate("2025-01-01","2025-01-31").median().select(["fitted"],["m11_"+dependent]);
+var m12 = fitted.filterDate("2025-02-01","2025-02-28").median().select(["fitted"],["m12_"+dependent]);
 
-var fitted_mt = ee.Image.cat(f03, f04, f05, f06, f07, f08, f09, f10, f11, f12, f01, f02).toInt16();
+var m13 = fitted.filterDate("2025-03-01","2025-03-31").median().select(["fitted"],["m13_"+dependent]);
+var m14 = fitted.filterDate("2025-04-01","2025-04-30").median().select(["fitted"],["m14_"+dependent]);
+var m15 = fitted.filterDate("2025-05-01","2025-05-31").median().select(["fitted"],["m15_"+dependent]);
+var m16 = fitted.filterDate("2025-06-01","2025-06-30").median().select(["fitted"],["m16_"+dependent]);
+
+var fitted_mt = ee.Image.cat(m01,m02,m03,m04,m05,m06,m07,m08,m09,m10,m11,m12,m13,m14,m15,m16).toInt16();
 print(fitted_mt);
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-/*
 Export.image.toAsset({image:fitted_mt.clip(roi),description:'export_ee_fitted_pace_ndvi',
-assetId:'projects/projects/bz-sdg/compil_imagery/hyperspectral/paci_oci_vi/8day_4km/vi_01_ndvi_ft_c2_202403_202502_4km',
+assetId:'global_pace_oci_vi_01_ndvi_ft_c2_202403_202506_4km',
 scale:4000,region:roi, crs: 'EPSG:4326'});
 
+// projects/projects/bz-sdg/compil_imagery/hyperspectral/paci_oci_vi/8day_4km/
+
+/*
 Export.image.toAsset({image:fitted_mt.clip(roi),description:'export_ee_fitted_pace_evi',
-assetId:'projects/projects/bz-sdg/compil_imagery/hyperspectral/paci_oci_vi/8day_4km/vi_02_evi_ft_c2_202403_202502_4km',
+assetId:'global_pace_oci_vi_02_evi_ft_c2_202403_202506_4km',
 scale:4000,region:roi, crs: 'EPSG:4326'});
 
 Export.image.toAsset({image:fitted_mt.clip(roi),description:'export_ee_fitted_pace_cci',
-assetId:'projects/projects/bz-sdg/compil_imagery/hyperspectral/paci_oci_vi/8day_4km/vi_05_cci_ft_c2_202403_202502_4km',
+assetId:'global_pace_oci_vi_05_cci_ft_c2_202403_202506_4km',
 scale:4000,region:roi, crs: 'EPSG:4326'});
 
 Export.image.toAsset({image:fitted_mt.clip(roi),description:'export_ee_fitted_pace_cire',
-assetId:'projects/projects/bz-sdg/compil_imagery/hyperspectral/paci_oci_vi/8day_4km/vi_07_cire_ft_c2_202403_202502_4km',
+assetId:'global_pace_oci_vi_07_cire_ft_c2_202403_202506_4km',
 scale:4000,region:roi, crs: 'EPSG:4326'});
 
 Export.image.toAsset({image:fitted_mt.clip(roi),description:'export_ee_fitted_pace_car',
-assetId:'projects/projects/bz-sdg/compil_imagery/hyperspectral/paci_oci_vi/8day_4km/vi_08_car_ft_c2_202403_202502_4km',
+assetId:'global_pace_oci_vi_08_car_ft_c2_202403_202506_4km',
 scale:4000,region:roi, crs: 'EPSG:4326'});
 
 Export.image.toAsset({image:fitted_mt.clip(roi),description:'export_ee_fitted_pace_mari',
-assetId:'projects/projects/bz-sdg/compil_imagery/hyperspectral/paci_oci_vi/8day_4km/vi_09_mari_ft_c2_202403_202502_4km',
+assetId:'global_pace_oci_vi_09_mari_ft_c2_202403_202506_4km',
 scale:4000,region:roi, crs: 'EPSG:4326'});
-*/
 
 Export.image.toAsset({image:fitted_mt.clip(roi),description:'export_ee_fitted_pace_pri',
-assetId:'projects/projects/bz-sdg/compil_imagery/hyperspectral/paci_oci_vi/8day_4km/vi_10_pri_ft_c2_202403_202502_4km',
+assetId:'global_pace_oci_vi_10_pri_ft_c2_202403_202506_4km',
 scale:4000,region:roi, crs: 'EPSG:4326'});
+*/
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////
