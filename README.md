@@ -41,7 +41,7 @@ To add the code repository 💾 directly to your GEE account, use the following 
 
 5. Explore the PACE OCI hyperspectral signatures using the [PACE OCI Hyperspectral Data Explorer](https://servirbz.users.earthengine.app/view/pace-oci-spectral-viewer-v1), based on the awesome [Planet Tanager Viewer](https://sat-io.earthengine.app/view/tanager) developed by Dr. Sam Roy: https://servirbz.users.earthengine.app/view/pace-oci-spectral-viewer-v1.
 
-![]()
+![](https://github.com/BzGEO/pace_oci_toolkit/blob/main/_graphics/hyperspectral_data_explorer__pace_oci.PNG)
 
 6. *Interested in learning more about this toolkit?* 🤔 Join us at the pre-AmeriGEO Week 2025 virtual training on PACE + GEE, on **6 Aug. 2025** at 1:00-4:00 pm US CDT / GMT-5: https://www.bit.ly/PACE_AmeriGEO.
 
