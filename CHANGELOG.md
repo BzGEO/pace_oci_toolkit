@@ -4,7 +4,7 @@
 **Note:** The status of PACE OCI LandVI updates can be tracked using the following [calendar](https://bit.ly/pace_oci_8d_cal).
 
 ## Updates: 20.07.2025 - LandVI 8D data updated through 19.07.2025
-1. The LandVI 8D data for the period 12.07.2025-19.07.2025 (period 63) has been integrated.
+1. The LandVI 8D data for the period 12.07.2025-19.07.2025 (period 63) has been integrated. It is expected that the data for period 64 (20.07.2025 - 27.07.2025) will be available around the middle of the final week of July.
 2. The [reference dependency](https://code.earthengine.google.com/?scriptPath=users%2Fbzgeo%2Fhyperspectral_toolkit%3A00_pkg%2Fref_data_pace_oci.js) has been updated.
 
 ## Updates: 16.07.2025 - LandVI 8D data updated through 11.07.2025; monthly LandVI estimate for June 2025 generated
