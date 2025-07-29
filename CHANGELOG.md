@@ -1,5 +1,5 @@
 # Change log file: PACE OCI Toolkit
-*Last updated: 26.07.2025*
+*Last updated: 29.07.2025*
 
 **Note:** The status of PACE OCI LandVI updates can be tracked using the following [calendar](https://bit.ly/pace_oci_8d_cal).
 
