@@ -43,7 +43,7 @@ To add the code repository 💾 directly to your GEE account, use the following 
 
 ![](https://github.com/BzGEO/pace_oci_toolkit/blob/main/_graphics/hyperspectral_data_explorer__pace_oci.PNG)
 
-6. *Interested in learning more about this toolkit?* 🤔 Join us at the pre-AmeriGEO Week 2025 virtual training on PACE + GEE, on **6 Aug. 2025** at 1:00-4:00 pm US CDT / GMT-5: https://www.bit.ly/PACE_AmeriGEO.
+6. *Interested in learning more about this toolkit?* 🤔 Join us at the pre-AmeriGEO Week 2025 virtual training on PACE + GEE, on **6 Aug. 2025** at 1:00-4:00 pm US CDT / GMT-5: [bit.ly/PACE_AmeriGEO](https://www.bit.ly/PACE_AmeriGEO).
 
 ![](https://github.com/BzGEO/pace_oci_toolkit/blob/main/_graphics/amerigeo_week_2025__pace_flyer.png)
 
