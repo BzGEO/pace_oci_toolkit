@@ -1,5 +1,5 @@
 # Change log file: PACE OCI Toolkit
-*Last updated: 30.07.2025*
+[![Update](https://img.shields.io/github/last-commit/bzgeo/pace_oci_toolkit?label=repo%20last%20updated&style=flat-square)](https://github.com/BzGEO/pace_oci_toolkit)
 
 **Note:** The status of PACE OCI LandVI updates can be tracked using the following [calendar](https://bit.ly/pace_oci_8d_cal).
 
