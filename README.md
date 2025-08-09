@@ -33,15 +33,20 @@ To add the code repository 💾 directly to your GEE account, use the following 
 
 ## Additional information
 1. A [changelog](https://github.com/BzGEO/pace_oci_toolkit/blob/main/CHANGELOG.md) focusing on the updates to the PACE OCI data is being maintained and regularly updated.
-2. A video 🎥 overview of the tools is provided in the third part of the following, from the [2nd PACE Land data Users' Group (PLUG) meeting](https://pace.oceansciences.org/events_more.htm?id=77) on *1 July 2025*: https://www.youtube.com/watch?v=hOu8rPd_x6I.
-3. More information on the PLUG can be found at: https://pace.oceansciences.org/event_archive/landDataUserGroup.htm.
-4. More information on PACE's data products can be found at: https://pace.oceansciences.org/data_table.htm.
+2. More information on the PACE Land data Users' Group (PLUG) can be found at: https://pace.oceansciences.org/event_archive/landDataUserGroup.htm.
+3. More information on PACE's data products can be found at: https://pace.oceansciences.org/data_table.htm.
 
 ![](https://github.com/BzGEO/pace_oci_toolkit/blob/main/_graphics/pace_plug.png)
 
-5. Explore the PACE OCI hyperspectral signatures using the [PACE OCI Hyperspectral Data Explorer](https://servirbz.users.earthengine.app/view/pace-oci-spectral-viewer-v1), based on the awesome [Planet Tanager Viewer](https://sat-io.earthengine.app/view/tanager) developed by Dr. Sam Roy: https://servirbz.users.earthengine.app/view/pace-oci-spectral-viewer-v1.
+4. Explore the PACE OCI hyperspectral signatures using the [PACE OCI Hyperspectral Data Explorer](https://servirbz.users.earthengine.app/view/pace-oci-spectral-viewer-v1), based on the awesome [Planet Tanager Viewer](https://sat-io.earthengine.app/view/tanager) developed by Dr. Sam Roy: https://servirbz.users.earthengine.app/view/pace-oci-spectral-viewer-v1.
 
 ![](https://github.com/BzGEO/pace_oci_toolkit/blob/main/_graphics/hyperspectral_data_explorer__pace_oci.PNG)
+
+5. Video 🎥 overviews of the PACE OCI Toolkit are available in the following recordings:
+
+* The 2nd [PACE Land data Users' Group (PLUG) meeting](https://pace.oceansciences.org/events_more.htm?id=77) [*1 July 2025*]: https://youtu.be/hOu8rPd_x6I?t=1779.
+* The 2nd day of the NASA Earthdata webinar on the [Fundamentals of Hyperspectral & Thermal Earth Observations](https://www.earthdata.nasa.gov/events/fundamentals-use-hyperspectral-thermal-nasa-earth-observations) [*22 July 2025*]: https://youtu.be/0JuN_raCcvk?t=8827.
+* The [pre-AmeriGEO Week 2025 webinar on PACE and GEE](https://www.linkedin.com/posts/amerigeo_se-acerca-la-semana-amerigeo-2025-en-activity-7355603935019028481-75oo) [*6 August 2025*]: https://youtu.be/bdv-m02YtSI?t=8148.
 
 <!--
 
