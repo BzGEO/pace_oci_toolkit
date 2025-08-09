@@ -44,9 +44,9 @@ To add the code repository 💾 directly to your GEE account, use the following 
 
 5. Video 🎥 overviews of the PACE OCI Toolkit are available in the following recordings:
 
-* The 2nd [PACE Land data Users' Group (PLUG) meeting](https://pace.oceansciences.org/events_more.htm?id=77) [*1 July 2025*]: https://youtu.be/hOu8rPd_x6I?t=1779.
-* The 2nd day of the NASA Earthdata webinar on the [Fundamentals of Hyperspectral & Thermal Earth Observations](https://www.earthdata.nasa.gov/events/fundamentals-use-hyperspectral-thermal-nasa-earth-observations) [*22 July 2025*]: https://youtu.be/0JuN_raCcvk?t=8827.
-* The [pre-AmeriGEO Week 2025 webinar on PACE and GEE](https://www.linkedin.com/posts/amerigeo_se-acerca-la-semana-amerigeo-2025-en-activity-7355603935019028481-75oo) [*6 August 2025*]: https://youtu.be/bdv-m02YtSI?t=8148.
+* [*1 July 2025*] The 2nd [PACE Land data Users' Group (PLUG) meeting](https://pace.oceansciences.org/events_more.htm?id=77): https://youtu.be/hOu8rPd_x6I?t=1779.
+* [*22 July 2025*] The 2nd day of the NASA Earthdata webinar on the [Fundamentals of Hyperspectral & Thermal Earth Observations](https://www.earthdata.nasa.gov/events/fundamentals-use-hyperspectral-thermal-nasa-earth-observations): https://youtu.be/0JuN_raCcvk?t=8827.
+* [*6 August 2025*] The [pre-AmeriGEO Week 2025 webinar on PACE and GEE](https://www.linkedin.com/posts/amerigeo_se-acerca-la-semana-amerigeo-2025-en-activity-7355603935019028481-75oo): https://youtu.be/bdv-m02YtSI?t=8148.
 
 <!--
 
