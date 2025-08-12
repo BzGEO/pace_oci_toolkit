@@ -46,9 +46,11 @@ To add the code repository 💾 directly to your GEE account, use the following 
 
 * [*1 July 2025*] The 2nd [PACE Land data Users' Group (PLUG) meeting](https://pace.oceansciences.org/events_more.htm?id=77): https://youtu.be/hOu8rPd_x6I?t=1779.
 * [*22 July 2025*] The 2nd day of the NASA Earthdata webinar on the [Fundamentals of Hyperspectral & Thermal Earth Observations](https://www.earthdata.nasa.gov/events/fundamentals-use-hyperspectral-thermal-nasa-earth-observations): https://youtu.be/0JuN_raCcvk?t=8827.
-* [*6 August 2025*] The [pre-AmeriGEO Week 2025 webinar](https://www.linkedin.com/posts/amerigeo_se-acerca-la-semana-amerigeo-2025-en-activity-7355603935019028481-75oo) on PACE and GEE: https://youtu.be/bdv-m02YtSI?t=8148.
+* [*6 August 2025*] The [pre-AmeriGEO Week 2025 webinar](https://www.linkedin.com/posts/amerigeo_se-acerca-la-semana-amerigeo-2025-en-activity-7355603935019028481-75oo) on PACE and GEE: https://youtu.be/nOXNXBQR3cw?t=8142.
 
 <!--
+
+https://youtu.be/bdv-m02YtSI?t=8148
 
 6. *Interested in learning more about this toolkit?* 🤔 Join us at the pre-AmeriGEO Week 2025 virtual training on PACE + GEE, on **6 Aug. 2025** at 1:00-4:00 pm US CDT / GMT-5: [bit.ly/PACE_AmeriGEO](https://www.bit.ly/PACE_AmeriGEO).
 
