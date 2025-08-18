@@ -3,6 +3,9 @@
 
 **Note:** The status of PACE OCI LandVI updates can be tracked using the following [calendar](https://bit.ly/pace_oci_8d_cal).
 
+## Updates: 15.08.2025 - Chlorophyll-a 8D data added
+1. To complement the land-focused LandVI and surface reflectance data, I have ingested all of the 8D chlorophyll-a data availale up to this point (some 65 periods). Those data are global, and at the 4km spatial resolution. The processing version available is from 3.0, although the PACE team has announced that they are now at a processing version of 3.1.
+
 ## Updates: 07.08.2025 - LandVI 8D data updated through 04.08.2025
 1. The LandVI 8D data for the period 28.07.2025-04.08.2025 (period 65) has been integrated.
 2. The [reference dependency](https://code.earthengine.google.com/?scriptPath=users%2Fbzgeo%2Fhyperspectral_toolkit%3A00_pkg%2Fref_data_pace_oci.js) has been updated.
