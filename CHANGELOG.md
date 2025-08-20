@@ -1,7 +1,7 @@
 # Change log file: PACE OCI Toolkit
 [![Update](https://img.shields.io/github/last-commit/bzgeo/pace_oci_toolkit?label=repo%20last%20updated&style=flat-square)](https://github.com/BzGEO/pace_oci_toolkit)
 
-**Note:** The status of PACE OCI LandVI updates can be tracked using the following [calendar](https://bit.ly/pace_oci_8d_cal).
+**Note:** The status of PACE OCI LandVI [*and now the Chlorophyll-a*] updates can be tracked using the following [calendar](https://bit.ly/pace_oci_8d_cal).
 
 ## Updates: 20.08.2025 - 8D Chlorophyll-a and LandVI data for 05.08.2025-12.08.2025 are not yet available
 1. Likely due to the level 3.1 processing of the PACE data, the 8 day (8D) data ending in the period 12.08.2025 are not yet available via the [OB.DAAC](https://oceandata.sci.gsfc.nasa.gov/l3/) or [NASA EarthData Search](https://search.earthdata.nasa.gov/search/granules?p=C3620140344-OB_CLOUD&pg[0][v]=f&pg[0][id]=*8D*&pg[0][gsk]=-start_date&q=global%20mapped%20landvi&fi=OCI&tl=1732614766.065!4!!).
