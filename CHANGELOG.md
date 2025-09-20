@@ -3,6 +3,11 @@
 
 **Note:** The status of PACE OCI LandVI [*and now the Chlorophyll-a*] updates can be tracked using the following [calendar](https://bit.ly/pace_oci_8d_cal).
 
+## Updates: 20.09.2025 - 8D Chlorophyll-a and LandVI data updated through period 70 (06.09.2025 - 13.09.2025)
+1. Although the 8D level 3.1 processed *chlorophyll-a* and LandVI data are not yet available through the OB.DAAC or NASA EarthData Search, I have generated 8 day medians from the original daily data. I have processed the 4km data from 5 periods (periods 66-70). I am still awaiting the official 8D data from the OB.DAAC / NASA EarthData.
+2. The [reference dependency](https://code.earthengine.google.com/?scriptPath=users%2Fbzgeo%2Fhyperspectral_toolkit%3A00_pkg%2Fref_data_pace_oci.js) has been updated.
+3. The [8D calendar](https://bit.ly/pace_oci_8d_cal) has been updated.
+
 ## Updates: 02.09.2025 - 8D Chlorophyll-a and LandVI data for 05.08.2025-12.08.2025, 13.08.2025-20.08.2025, and 21.08.2025-29.08.2025 are not yet available
 1. The aforementioned data are still not yet available from the DAACs, and have therefore not yet been ingested into the toolkit's archive.
 
