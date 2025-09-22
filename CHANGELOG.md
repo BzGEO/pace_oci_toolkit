@@ -3,8 +3,9 @@
 
 **Note:** The status of PACE OCI LandVI [*and now the Chlorophyll-a*] updates can be tracked using the following [calendar](https://bit.ly/pace_oci_8d_cal).
 
-## Updates: 22.09.2025 - Monthly remote sensing reflectance (RRS) products for CONUS being integrated
-1. Since the monthly version 3.1 monthly RRS data are now available from the OB.DAAC, the 4km data for CONUS are now being integrated into the Toolkit. Details TBD.
+## Updates: 22.09.2025 - Monthly remote sensing reflectance (RRS) products for CONUS now available
+1. Since the monthly version 3.1 monthly RRS data are now available from the OB.DAAC, the 4km data for CONUS are now available through the Toolkit.
+2. The [reference dependency](https://code.earthengine.google.com/?scriptPath=users%2Fbzgeo%2Fhyperspectral_toolkit%3A00_pkg%2Fref_data_pace_oci.js) has been updated.
 
 ## Updates: 20.09.2025 - 8D Chlorophyll-a and LandVI data updated through period 70 (06.09.2025 - 13.09.2025)
 1. Although the 8D level 3.1 processed *chlorophyll-a* and LandVI data are not yet available through the OB.DAAC or NASA EarthData Search, I have generated 8 day medians from the original daily data. I have processed the 4km data from 5 periods (periods 66-70). I am still awaiting the official 8D data from the OB.DAAC / NASA EarthData.
