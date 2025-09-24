@@ -5,7 +5,7 @@
 
 ## Updates: 22.09.2025 / 23.09.2025 - Monthly remote sensing reflectance (RRS) products for CONUS now available
 1. Since the monthly version 3.1 monthly RRS data are now available from the OB.DAAC, the 4km **monthly** data for CONUS are now available through the Toolkit, covering March 2024 to June 2025.
-2. **Monthly** 0.1 degree global data have also been added, covering the period March 2024 through June 2025.
+2. **Monthly** 0.1 degree *global* data have also been added, covering the period March 2024 through June 2025.
 3. The [reference dependency](https://code.earthengine.google.com/?scriptPath=users%2Fbzgeo%2Fhyperspectral_toolkit%3A00_pkg%2Fref_data_pace_oci.js) has been updated.
 4. The spectral wavekengths for the RRS data have been updated in the other [reference dependency script](https://code.earthengine.google.com/?scriptPath=users%2Fbzgeo%2Fhyperspectral_toolkit%3A00_pkg%2Femit_hyperion_pace.js).
 
