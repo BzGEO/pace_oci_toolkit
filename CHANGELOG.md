@@ -3,12 +3,12 @@
 
 **Note:** The status of PACE OCI LandVI [*and now the Chlorophyll-a*] updates can be tracked using the following [calendar](https://bit.ly/pace_oci_8d_cal).
 
-## Updates: 02.10.2025
+## Updates: 02.10.2025 - 2km monthly surface reflectance products for CONUS and 4km RRS products for East Africa are being integrated into the toolkit
 1. Monthly surface reflectance mosaics at the 2km spatial resolution have been extracted for CONUS for March 2024 to August 2025 (i.e., 18 mosaics) using the recently reprocessed version 3.1 data.
 2. Monthly RRS mosaics at the 4km spatial resolution have been extracted for a large domain over East Africa, for the same March 2024 to August 2025 time period.
 3. The reference script will be updated shortly to reflect both datasets.
 
-## Updates: 29.09.2025
+## Updates: 29.09.2025 - 2km monthly surface reflectance products for Mesoamerica now available
 1. Monthly surface reflectance mosaics at the 2km spatial resolution have been extracted for Mesoamerica for March 2024 to August 2025 (i.e., 18 mosaics) using the recently reprocessed version 3.1 data.
 2. The [reference dependency](https://code.earthengine.google.com/?scriptPath=users%2Fbzgeo%2Fhyperspectral_toolkit%3A00_pkg%2Fref_data_pace_oci.js) has been updated.
 
