@@ -3,8 +3,9 @@
 
 **Note:** The status of PACE OCI LandVI [*and now the Chlorophyll-a*] updates can be tracked using the following [calendar](https://bit.ly/pace_oci_8d_cal).
 
-## Updates: 11.10.2025 - 8D products
-1. Due to the current US Government shutdown, the various PACE OCI 8D products are not currently being generated. The last available data are for the period ending on 28.08.2025. We will likely update the 8D products when they become available again from the OB.DAAC.
+## Updates: 11.10.2025 to 13.10.2025 - 8D products
+1. Due to the current US Government shutdown, the various PACE OCI 8D products are not currently being generated. The last available data are for the period 21.08.2025 to 28.08.2025 (period 68). We will likely update the 8D products when they become available again from the OB.DAAC.
+2. As of today, data from periods 69 (29.08.2025 to 05.09.2025) to 73 (30.09.2025 to 07.10.2025) have still not been produced.
 
 ## Updates: 03.10.2025 - 2km monthly surface reflectance products for CONUS and 4km RRS products for East Africa successfully integrated into the toolkit
 1. Per the updates in the previous section (monthly 2km surface reflectance data for CONUS and monthly 4km RRS for East Africa, both for March 2024 to August 2025), both sets of products have successfully been integrated into the [reference dependency script](https://code.earthengine.google.com/?scriptPath=users%2Fbzgeo%2Fhyperspectral_toolkit%3A00_pkg%2Fref_data_pace_oci.js).
