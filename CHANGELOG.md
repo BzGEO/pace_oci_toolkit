@@ -3,6 +3,9 @@
 
 **Note:** The status of PACE OCI LandVI [*and now the Chlorophyll-a*] updates can be tracked using the following [calendar](https://bit.ly/pace_oci_8d_cal).
 
+## Updates: 06.11.2025
+1. Although we are now safely in the month of November, the PACE OCI 8D and monthly products were only recently (over the previous weekend) updated to September 2025. The most recently monthly mosaic is for September 2025, and the most recent 8D mosaic products are for the 22.09.2025 to 29.09.2025. The chlorophyll a, LandVI, surface reflectance, and aquatic reflectance (RRS) products have been acquired and are now in the process of being ingested into GEE. Once these datasets have all been ingested, an update will follow.
+
 ## Updates: 11.10.2025 to 13.10.2025 - 8D products
 1. Due to the current US Government shutdown, the various PACE OCI 8D products are not currently being generated. The last available data are for the period 21.08.2025 to 28.08.2025 (period 68). We will likely update the 8D products when they become available again from the OB.DAAC.
 2. As of today, data from periods 69 (29.08.2025 to 05.09.2025) to 73 (30.09.2025 to 07.10.2025) have still not been produced.
