@@ -1,8 +1,8 @@
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 /* DATA DISCOVERY: FIND NASA HYPERION, EMIT, AND PACE OCI IMAGES FOR A SPECIFIC LOCATION
-source: Emil Cherrington, Ph.D. (University of Alabama in Huntsville / NASA SERVIR); emil.cherrington@uah.edu
-last updated: 09.05.2025 */
+source: Emil Cherrington, Ph.D. (University of Alabama in Huntsville / NASA EarthRISE); emil.cherrington@uah.edu
+last updated: 15.10.2025 */
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -10,13 +10,14 @@ var a = require('users/servirbz/packages:img_recent'); // imports the img_recent
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-var pt = ee.Geometry.Point([-86.5924, 34.7301]); // Huntsville, AL, USA
+// US Clearlake, California
+var roi = ee.FeatureCollection('USGS/WBD/2017/HUC08').filter(ee.Filter.eq("huc8","18020116"));
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-a.most_recent("EO-1 Hyperion", a.hyperion, pt);
-a.most_recent("ISS EMIT", a.emit, pt);
-a.most_recent("PACE OCI - SR", a.pace_oci_sr, pt);
-a.most_recent("PACE OCI - EVI", a.pace_oci_evi, pt);
+a.most_recent("EO-1 Hyperion", a.hyperion, roi);
+a.most_recent("ISS EMIT", a.emit, roi);
+a.most_recent("PACE OCI - SR", a.pace_oci_sr, roi);
+a.most_recent("PACE OCI - EVI", a.pace_oci_evi, roi);
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
