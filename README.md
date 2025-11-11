@@ -1,4 +1,4 @@
-# the PACE OCI Toolkit
+# the PACE OCI Toolkit (the PACE Toolkit)
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15873995.svg)](https://doi.org/10.5281/zenodo.15873995)
 [![Update](https://img.shields.io/github/last-commit/bzgeo/pace_oci_toolkit?label=repo%20last%20updated&style=flat-square)](https://github.com/BzGEO/pace_oci_toolkit)
@@ -42,13 +42,16 @@ To add the code repository 💾 directly to your GEE account, use the following 
 
 ![](https://github.com/BzGEO/pace_oci_toolkit/blob/main/_graphics/hyperspectral_data_explorer__pace_oci.PNG)
 
-5. Video 🎥 overviews of the PACE OCI Toolkit are available in the following recordings:
+5. Videos 🎥 featuring the PACE OCI Toolkit are available in the following recordings:
 
 * [*1 July 2025*] The 2nd [PACE Land data Users' Group (PLUG) meeting](https://pace.oceansciences.org/events_more.htm?id=77): https://youtu.be/hOu8rPd_x6I?t=1779.
 * [*22 July 2025*] The 2nd day of the NASA Earthdata webinar on the [Fundamentals of Hyperspectral & Thermal Earth Observations](https://www.earthdata.nasa.gov/events/fundamentals-use-hyperspectral-thermal-nasa-earth-observations): https://youtu.be/0JuN_raCcvk?t=8827.
-* [*6 August 2025*] The [pre-AmeriGEO Week 2025 webinar on PACE and GEE](https://www.linkedin.com/posts/amerigeo_se-acerca-la-semana-amerigeo-2025-en-activity-7355603935019028481-75oo): https://youtu.be/bdv-m02YtSI?t=8148.
+* [*6 August 2025*] The [pre-AmeriGEO Week 2025 webinar](https://www.linkedin.com/posts/amerigeo_se-acerca-la-semana-amerigeo-2025-en-activity-7355603935019028481-75oo) on PACE and GEE: https://youtu.be/nOXNXBQR3cw?t=8142.
+* [*19 August 2025*] A general PACE OCI Toolkit overview: https://youtu.be/8Ln6CMkyv00.
 
 <!--
+
+https://youtu.be/bdv-m02YtSI?t=8148
 
 6. *Interested in learning more about this toolkit?* 🤔 Join us at the pre-AmeriGEO Week 2025 virtual training on PACE + GEE, on **6 Aug. 2025** at 1:00-4:00 pm US CDT / GMT-5: [bit.ly/PACE_AmeriGEO](https://www.bit.ly/PACE_AmeriGEO).
 
@@ -63,7 +66,7 @@ The following is a graphical representation of the process for ingesting the PAC
 ![](https://github.com/BzGEO/pace_oci_toolkit/blob/main/_graphics/pace_gee_processing_v20250630.png)
 
 ## Acknowledgements
-This work was initially [soft-launched](https://bit.ly/sbg_tim_2025_pace_tk) on 22 May 2025, during the virtual [Technical Interchange Meeting](https://sbg.jpl.nasa.gov/news-events/sbg-sa-tim-2025) of NASA's [Surface Biology and Geology (SBG)](https://sbg.jpl.nasa.gov/) mission. This work is being led by researchers from the [Lab for Applied Science](https://www.uah.edu/essc/laboratory-for-applied-science) of the [Earth System Science Center](https://www.uah.edu/essc) of the [University of Alabama in Huntsville](https://www.uah.edu/) and has been supported by the [NASA](https://www.nasa.gov) Earth Action / NASA [Marshall Space Flight Center](https://www.nasa.gov/marshall/). This work is being done in the context of an [Early Adopters project](https://pace.oceansciences.org/people_ea.htm?id=127) for PACE. The PACE Mission Applications Lead, Dr. Morgaine McKibben (NASA / SSAI), is acknowledged for her support, as are Skye Caplan (NASA / SSAI) of the PACE mission, and Dr. K. Fred Huemmrich of the PACE Science & Applications Team (NASA / UMBC). Kudos are also due to [Kelsey Herndon](https://github.com/herndk1) (NASA / UAH), [Prof. Rob Griffin](https://github.com/r-griffin), [Dr. Africa-Flores-Anderson](https://github.com/africaf) (NASA), [Eric Anderson](https://github.com/andersoner) (NASA), Dr. Kevin Horn (NASA), Dr. Ashutosh Limaye (NASA), and Dan Irwin (NASA) of NASA MSFC. This work also draws inspiration from the [GEE Toolkit for water quality monitoring](https://www.frontiersin.org/journals/remote-sensing/articles/10.3389/frsen.2022.1020184/full) developed by Dr. [Ileana Callejas](https://github.com/iacallejas) et al. (2022), and pioneering work done by Dr. [Gennadii Donchyts](https://github.com/gena) (*formerly of Deltares, and currently at Google*) in developing various add-on functions for GEE.
+This work is being supported in the framework of the recently established NASA EarthRISE program. This work was initially [soft-launched](https://bit.ly/sbg_tim_2025_pace_tk) on 22 May 2025, during the virtual [Technical Interchange Meeting](https://sbg.jpl.nasa.gov/news-events/sbg-sa-tim-2025) of NASA's [Surface Biology and Geology (SBG)](https://sbg.jpl.nasa.gov/) mission. This work is being led by researchers from the [Lab for Applied Science](https://www.uah.edu/essc/laboratory-for-applied-science) of the [Earth System Science Center](https://www.uah.edu/essc) of the [University of Alabama in Huntsville](https://www.uah.edu/) and has been supported by the [NASA](https://www.nasa.gov) Earth Action / NASA [Marshall Space Flight Center](https://www.nasa.gov/marshall/). This work is also being done in the context of an [Early Adopters project](https://pace.oceansciences.org/people_ea.htm?id=127) for PACE. The PACE Mission Applications Lead, Dr. Morgaine McKibben (NASA / SSAI), is acknowledged for her support, as are Skye Caplan (NASA / SSAI) of the PACE mission, and Dr. K. Fred Huemmrich of the PACE Science & Applications Team (NASA / UMBC). Kudos are also due to [Kelsey Herndon](https://github.com/herndk1) (NASA / UAH), [Prof. Rob Griffin](https://github.com/r-griffin), [Dr. Africa-Flores-Anderson](https://github.com/africaf) (NASA), [Eric Anderson](https://github.com/andersoner) (NASA), Dr. Kevin Horn (NASA), Dr. Ashutosh Limaye (NASA), and Dan Irwin (NASA) of NASA MSFC. This work also draws inspiration from the [GEE Toolkit for water quality monitoring](https://www.frontiersin.org/journals/remote-sensing/articles/10.3389/frsen.2022.1020184/full) developed by Dr. [Ileana Callejas](https://github.com/iacallejas) et al. (2022), and pioneering work done by Dr. [Gennadii Donchyts](https://github.com/gena) (*formerly of Deltares, and currently at Google*) in developing various add-on functions for GEE.
 
 ## Citation
 

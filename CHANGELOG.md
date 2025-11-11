@@ -1,7 +1,54 @@
 # Change log file: PACE OCI Toolkit
 [![Update](https://img.shields.io/github/last-commit/bzgeo/pace_oci_toolkit?label=repo%20last%20updated&style=flat-square)](https://github.com/BzGEO/pace_oci_toolkit)
 
-**Note:** The status of PACE OCI LandVI updates can be tracked using the following [calendar](https://bit.ly/pace_oci_8d_cal).
+**Note:** The status of PACE OCI LandVI [*and now the Chlorophyll-a*] updates can be tracked using the following [calendar](https://bit.ly/pace_oci_8d_cal).
+
+## Updates: 10.11.2025
+1. The updates indicated in the previous listing below have been transferred to the hyperspectral toolkit's dependency file, so most of the monthly and 8D datasets are now updated to the end of September 2025.
+
+
+## Updates: 06.11.2025
+1. Although we are now safely in the month of November, the PACE OCI 8D and monthly products were only recently (over the previous weekend) updated to September 2025. The most recently monthly mosaic is for September 2025, and the most recent 8D mosaic products are for the 22.09.2025 to 29.09.2025. The chlorophyll a, LandVI, surface reflectance, and aquatic reflectance (RRS) products have been acquired and are now in the process of being ingested into GEE. Once these datasets have all been ingested, an update will follow.
+
+## Updates: 11.10.2025 to 13.10.2025 - 8D products
+1. Due to the current US Government shutdown, the various PACE OCI 8D products are not currently being generated. The last available data are for the period 21.08.2025 to 28.08.2025 (period 68). We will likely update the 8D products when they become available again from the OB.DAAC.
+2. As of today, data from periods 69 (29.08.2025 to 05.09.2025) to 73 (30.09.2025 to 07.10.2025) have still not been produced.
+
+## Updates: 03.10.2025 - 2km monthly surface reflectance products for CONUS and 4km RRS products for East Africa successfully integrated into the toolkit
+1. Per the updates in the previous section (monthly 2km surface reflectance data for CONUS and monthly 4km RRS for East Africa, both for March 2024 to August 2025), both sets of products have successfully been integrated into the [reference dependency script](https://code.earthengine.google.com/?scriptPath=users%2Fbzgeo%2Fhyperspectral_toolkit%3A00_pkg%2Fref_data_pace_oci.js).
+
+## Updates: 02.10.2025 - 2km monthly surface reflectance products for CONUS and 4km RRS products for East Africa are being integrated into the toolkit
+1. Monthly surface reflectance mosaics at the 2km spatial resolution have been extracted for CONUS for March 2024 to August 2025 (i.e., 18 mosaics) using the recently reprocessed version 3.1 data.
+2. Monthly RRS mosaics at the 4km spatial resolution have been extracted for a large domain over East Africa, for the same March 2024 to August 2025 time period.
+3. The reference script will be updated shortly to reflect both datasets.
+
+## Updates: 29.09.2025 - 2km monthly surface reflectance products for Mesoamerica now available
+1. Monthly surface reflectance mosaics at the 2km spatial resolution have been extracted for Mesoamerica for March 2024 to August 2025 (i.e., 18 mosaics) using the recently reprocessed version 3.1 data.
+2. The [reference dependency](https://code.earthengine.google.com/?scriptPath=users%2Fbzgeo%2Fhyperspectral_toolkit%3A00_pkg%2Fref_data_pace_oci.js) has been updated.
+
+## Updates: 22.09.2025 to 24.09.2025 - Monthly remote sensing reflectance (RRS) products for CONUS now available
+1. Since the monthly version 3.1 monthly RRS data are now available from the OB.DAAC, the 4km **monthly** data for CONUS are now available through the Toolkit, covering March 2024 to June 2025.
+2. **Monthly** 0.1 degree *global* data have also been added, covering the period March 2024 through June 2025.
+3. The [reference dependency](https://code.earthengine.google.com/?scriptPath=users%2Fbzgeo%2Fhyperspectral_toolkit%3A00_pkg%2Fref_data_pace_oci.js) has been updated.
+4. The spectral wavelengths for the RRS data have been updated in the other [reference dependency script](https://code.earthengine.google.com/?scriptPath=users%2Fbzgeo%2Fhyperspectral_toolkit%3A00_pkg%2Femit_hyperion_pace.js).
+5. A sample script for viewing the RRS data over the CONUS is available at: https://code.earthengine.google.com/?scriptPath=users%2Fbzgeo%2Fhyperspectral_toolkit%3A01_data_viz%2Fviz_pace_oci_rrs_04km_monthly_conus.js.
+
+## Updates: 20.09.2025 - 8D Chlorophyll-a and LandVI data updated through period 70 (06.09.2025 - 13.09.2025)
+1. Although the 8D level 3.1 processed *chlorophyll-a* and LandVI data are not yet available through the OB.DAAC or NASA EarthData Search, I have generated 8 day medians from the original daily data. I have processed the 4km data from 5 periods (periods 66-70). I am still awaiting the official 8D data from the OB.DAAC / NASA EarthData.
+2. The [reference dependency](https://code.earthengine.google.com/?scriptPath=users%2Fbzgeo%2Fhyperspectral_toolkit%3A00_pkg%2Fref_data_pace_oci.js) has been updated.
+3. The [8D calendar](https://bit.ly/pace_oci_8d_cal) has been updated.
+
+## Updates: 02.09.2025 - 8D Chlorophyll-a and LandVI data for 05.08.2025-12.08.2025, 13.08.2025-20.08.2025, and 21.08.2025-29.08.2025 are not yet available
+1. The aforementioned data are still not yet available from the DAACs, and have therefore not yet been ingested into the toolkit's archive.
+
+## Updates: 28.08.2025 - 8D Chlorophyll-a and LandVI data for 05.08.2025-12.08.2025, and 13.08.2025-20.08.2025 are not yet available
+1. Probably because of the level 3.1 processing of the PACE data, the recent 8 day (8D) data are still not yet available via the [OB.DAAC](https://oceandata.sci.gsfc.nasa.gov/l3/) or [NASA EarthData Search](https://search.earthdata.nasa.gov/search/granules?p=C3620140344-OB_CLOUD&pg[0][v]=f&pg[0][id]=*8D*&pg[0][gsk]=-start_date&q=global%20mapped%20landvi&fi=OCI&tl=1732614766.065!4!!).
+
+## Updates: 20.08.2025 - 8D Chlorophyll-a and LandVI data for 05.08.2025-12.08.2025 are not yet available
+1. Likely due to the level 3.1 processing of the PACE data, the 8 day (8D) data ending in the period 12.08.2025 are not yet available via the [OB.DAAC](https://oceandata.sci.gsfc.nasa.gov/l3/) or [NASA EarthData Search](https://search.earthdata.nasa.gov/search/granules?p=C3620140344-OB_CLOUD&pg[0][v]=f&pg[0][id]=*8D*&pg[0][gsk]=-start_date&q=global%20mapped%20landvi&fi=OCI&tl=1732614766.065!4!!).
+
+## Updates: 15.08.2025 - Chlorophyll-a 8D data added
+1. To complement the land-focused LandVI and surface reflectance data, I have ingested all of the 8D chlorophyll-a data availale up to this point (some 65 periods). Those data are global, and at the 4km spatial resolution. The processing version available is from 3.0, although the PACE team has announced that they are now at a processing version of 3.1.
 
 ## Updates: 07.08.2025 - LandVI 8D data updated through 04.08.2025
 1. The LandVI 8D data for the period 28.07.2025-04.08.2025 (period 65) has been integrated.
