@@ -4,7 +4,7 @@
 **Note:** The status of PACE OCI LandVI [*and now the Chlorophyll-a*] updates can be tracked using the following [calendar](https://bit.ly/pace_oci_8d_cal).
 
 ## Updates: 10.11.2025
-1. The updates indicated in the previous listing below have been transferred to the hyperspectral toolkit's dependency file, so most of the monthly and 8D datasets are now updated to the end of September 2025.
+1. The updates indicated in the previous listing below have been transferred to the hyperspectral toolkit's [dependency](https://code.earthengine.google.com/?scriptPath=users%2Fbzgeo%2Fhyperspectral_toolkit%3A00_pkg%2Fref_data_pace_oci.js) file, so most of the monthly and 8D datasets are now updated to the end of September 2025.
 
 
 ## Updates: 06.11.2025
