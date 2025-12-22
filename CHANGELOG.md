@@ -3,6 +3,9 @@
 
 **Note:** The status of PACE OCI LandVI [*and now the Chlorophyll-a*] updates can be tracked using the following [calendar](https://bit.ly/pace_oci_8d_cal).
 
+## Updates: 22.12.2025
+1. I will likely not be updating the PACE OCI Toolkit until early January 2026.
+
 ## Updates: 15.12.2025
 1. The PACE OCI 8D data have still not yet been updated past the data from late September 2025.
 
