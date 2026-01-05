@@ -3,6 +3,9 @@
 
 **Note:** The status of PACE OCI LandVI [*and now the Chlorophyll-a*] updates can be tracked using the following [calendar](https://bit.ly/pace_oci_8d_cal).
 
+## Updates: 05.01.2026
+1. The PACE satellite has been highlighted in the following NASA article about the legacy of the soon to be decommissioned Terra satellite: https://science.nasa.gov/science-research/earth-science/the-earth-observer-offering-perspectives-from-space-through-time/.
+
 ## Updates: 01.01.2026
 1. The PACE OCI data in the L3 / L4 Browser has been updated to October 2025, and so I am in the process of acquiring that data, to integrate that data into GEE.
 
