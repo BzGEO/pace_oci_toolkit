@@ -3,6 +3,15 @@
 
 **Note:** The status of PACE OCI LandVI [*and now the Chlorophyll-a*] updates can be tracked using the following [calendar](https://bit.ly/pace_oci_8d_cal).
 
+## Updates: 08.01.2026
+1. Per the numerous weekly updates below about the delay in the processing of the PACE OCI data and the availability of that data at the beginning of the year, I have gotten around to:
+    * Grabbing monthly [global] data for RHOS, RRS, and Land VIs
+    * Grabbing 8D data for *chlorophyll a* and Land VIs
+2. While the monthly data had not been updated for a while, monthly data for Oct. 2025 and Nov. 2025. December 2025 data are still pending, and likely being processed.
+3. Interestingly, while monthly Land VI data are available for November 2025, the 8D Land VI data are only updated through October 2025.
+4. I will likely upload the monthly datasets to GEE before attempting the 8D data.
+5. Today was a PACE virtual *Hackday* event for the mission's Early Adopters. Details are provided [here](https://pace.oceansciences.org/events_more.htm?id=81). The Jupyter Notebooks used are linked in the following [page](https://nasa.github.io/oceandata-notebooks/home.html).
+
 ## Updates: 05.01.2026
 1. The PACE satellite has been highlighted in the following NASA article about the legacy of the soon to be decommissioned Terra satellite: https://science.nasa.gov/science-research/earth-science/the-earth-observer-offering-perspectives-from-space-through-time/.
 
