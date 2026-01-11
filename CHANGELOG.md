@@ -3,6 +3,9 @@
 
 **Note:** The status of PACE OCI LandVI [*and now the Chlorophyll-a*] updates can be tracked using the following [calendar](https://bit.ly/pace_oci_8d_cal).
 
+## Updates: 10.01.2026
+1. The various files have been processed from NetCDF to GeoTIF and uploaded to GEE, but the image collections have yet to be updated.
+
 ## Updates: 08.01.2026
 1. Per the numerous weekly updates below about the delay in the processing of the PACE OCI data and the availability of that data at the beginning of the year, I have gotten around to:
     * Grabbing monthly [global] data for RHOS, RRS, and Land VIs
