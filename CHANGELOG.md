@@ -3,6 +3,10 @@
 
 **Note:** The status of PACE OCI LandVI [*and now the Chlorophyll-a*] updates can be tracked using the following [calendar](https://bit.ly/pace_oci_8d_cal).
 
+## Updates: 11.01.2026
+1. The reference script has been updated with the various monthly PACE OCI datasets.
+2. The 8D PACE OCI data are yet to be extracted and uploaded.
+
 ## Updates: 10.01.2026
 1. The various files have been processed from NetCDF to GeoTIF and uploaded to GEE, but the image collections have yet to be updated.
 
