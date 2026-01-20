@@ -23,12 +23,12 @@ Given the launch of the PACE observatory in early 2024 and its unique hyperspect
 **Data volume and characteristics**
 * Stored with a bit depth of 32-bit float and containing [122 spectral bands](https://bit.ly/pace_oci_sr_v3_bands) ranging from the visible to shortwave infrared parts of the electromagnetic spectrum, the average size of a single monthly surface reflectance mosaic is 282 MB.
 * If the data are rescaled to 16-bit unsigned integers, the size of each file can be reduced to half, so approximately 141 MB.
-* A full stack of the 21 months of PACE OCI surface reflectance results in an output raster dataset containing 2,562 spectral bands.
 * While the nominal spatial resolution of the data are 2km x 2km, the precise spatial resolution is 0.020833334 degrees x 0.020833334 degrees, which actually translates to a grid size of 2,319 m x 2,319 m.
 * The data were extracted from the original NetCDF (.NC) files downloaded from [NASA EarthData Search](https://search.earthdata.nasa.gov/search) to GeoTIFF (.tif) format using [ESA's SNAP Desktop software]() -> the specific product is the [**PACE OCI Level-3 Global Mapped Surface Reflectance Data, version 3.1**](https://www.earthdata.nasa.gov/data/catalog/ob-cloud-pace-oci-l3m-sfrefl-3.1), which has the short title "PACE_OCI_L3M_SFREFL".
 
 **Processing**
-
+* Toward processing of the data, the 21 months of PACE OCI surface reflectance data were first stacked together.
+* A full stack of the 21 months of that data results in an output raster dataset containing 2,562 spectral bands.
 
 ## More information
 * [Project description](https://pace.oceansciences.org/people_ea.htm?id=127) at the PACE mission website (April 2025)
