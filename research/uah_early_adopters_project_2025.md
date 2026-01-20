@@ -16,7 +16,8 @@ Given the launch of the PACE observatory in early 2024 and its unique hyperspect
 
 ## Methods
 **Geographic domain**
-* Mesoamerica -> [EPSG 4326](https://spatialreference.org/ref/epsg/4326/) (GCS WGS84) coordinates: 22°, -93°, 7°, -77° (N, W, S, E)
+* The specific [EPSG 4326](https://spatialreference.org/ref/epsg/4326/) (GCS WGS84) coordinates are as follows: 22°, -93°, 7°, -77° (N, W, S, E).
+* The domain covers all of continental territories of the 7 Central American countries (Belize, Guatemala, El Salvador, Honduras, Nicaragua, Costa Rica, and Panama), total coverage of 3 southern states in Mexico (Campeche, Quintana Roo, Yucatan), and partial coverage of 2 other southern states in Mexico (Chiapas, Tabasco).
 
 **Temporal coverage**
 * As of the writing of this document (20.01.2026), some 21 **monthly surface reflectance** mosaics (version 3.1) are available from PACE OCI, spanning March 2024 through November 2025.
