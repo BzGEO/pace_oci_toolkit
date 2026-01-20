@@ -36,6 +36,9 @@ Given the launch of the PACE observatory in early 2024 and its unique hyperspect
 * To reduce the data size, reduce spectral noise, and to emphasize spectral patterns common across the various bands and dates, [Principal Component Analysis (PCA)]() was employed.
 * TBD
 
+## Results
+* TBD
+
 ## More information
 * [Project description](https://pace.oceansciences.org/people_ea.htm?id=127) at the PACE mission website (April 2025)
 
