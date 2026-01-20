@@ -13,10 +13,16 @@ Given the launch of the PACE observatory in early 2024 and its unique hyperspect
 *
 
 ## Methods
-**Geographic domain**: Mesoamerica -> [EPSG 4326](https://spatialreference.org/ref/epsg/4326/) (GCS WGS84) coordinates: 22, -93, 7, -77 (N, W, S, E)
+**Geographic domain**
+* Mesoamerica -> [EPSG 4326](https://spatialreference.org/ref/epsg/4326/) (GCS WGS84) coordinates: 22, -93, 7, -77 (N, W, S, E)
 
-* As of the writing of this document (20.01.2026), some 21 monthly surface reflectance mosaics are available from PACE OCI, spanning March 2024 through November 2025.
+**Temporal coverage**
+* As of the writing of this document (20.01.2026), some 21 monthly surface reflectance mosaics (version 3.1) are available from PACE OCI, spanning March 2024 through November 2025.
 
+**Data volume and characteristics**
+* The average size of a single monthly surface reflectance mosaic is 282 MB.
+* Those data are stored in a bit depth of 32 bit float, and contain 122 spectral bands ranging from the visible to shortwave infrared parts of the electromagnetic spectrum.
+* 
 
 ## More information
 * [Project description](https://pace.oceansciences.org/people_ea.htm?id=127) at the PACE mission website (April 2025)
