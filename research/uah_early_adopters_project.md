@@ -29,6 +29,7 @@ Given the launch of the PACE observatory in early 2024 and its unique hyperspect
 **Processing**
 * Toward processing of the data, the 21 months of PACE OCI surface reflectance data were first stacked together.
 * A full stack of the 21 months of that data results in an output raster dataset containing 2,562 spectral bands.
+* To reduce the data size, reduce spectral noise, and to emphasize spectral patterns common across the various bands and dates, [Principal Component Analysis (PCA)]() was employed.
 
 ## More information
 * [Project description](https://pace.oceansciences.org/people_ea.htm?id=127) at the PACE mission website (April 2025)
