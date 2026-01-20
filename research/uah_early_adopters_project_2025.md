@@ -40,7 +40,7 @@ Given the launch of the PACE observatory in early 2024 and its unique hyperspect
 * Toward processing of the data, the 21 months of PACE OCI surface reflectance data were first stacked together.
 * A full stack of the 21 months of that data results in an output raster dataset containing 2,562 spectral bands.
 * To reduce the data size, reduce spectral noise, and to emphasize spectral patterns common across the various bands and dates, [Principal Component Analysis (PCA)]() was employed.
-* While the extraction of principal components could have been done in GEE, the operation was relatively resource consuming, so the PCA was done using the ArcGIS Desktop v. 10.8.2 platform.
+* While the extraction of principal components could have been done in GEE, the operation was relatively resource consuming (i.e., it caused memory timeouts), so the PCA was done using the ArcGIS Desktop v. 10.8.2 platform.
 * TBD
 
 ## Results
