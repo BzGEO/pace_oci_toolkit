@@ -27,14 +27,14 @@ Given the launch of the PACE observatory in early 2024 and its unique hyperspect
 * The domain covers all of continental territories of the 7 Central American countries (Belize, Guatemala, El Salvador, Honduras, Nicaragua, Costa Rica, and Panama), total coverage of 3 southern states in Mexico (Campeche, Quintana Roo, Yucatan), and partial coverage of 2 other southern states in Mexico (Chiapas, Tabasco).
 
 **Temporal coverage**
-* As of the writing of this document (20.01.2026), some 21 **monthly surface reflectance** mosaics (version 3.1) are available from PACE OCI, spanning March 2024 through November 2025.
+* As of the writing of this document (Jan. 2026), some 21 **monthly surface reflectance** mosaics (version 3.1) are available from PACE OCI, spanning March 2024 through November 2025.
 * These are only three months shy of representing two years of observations -> the February 2026 surface reflectance data might not become available until early April 2026.
 
 **Data volume and characteristics**
 * Stored with a bit depth of 32-bit float and containing [122 spectral bands](https://bit.ly/pace_oci_sr_v3_bands) ranging from the visible to shortwave infrared parts of the electromagnetic spectrum, the average size of a single monthly surface reflectance mosaic is 282 MB.
 * If the data are rescaled to 16-bit unsigned integers, the size of each file can be reduced to half, so approximately 141 MB.
 * While the nominal spatial resolution of the data are 2km x 2km, the precise spatial resolution is 0.020833334 degrees x 0.020833334 degrees, which actually translates to a grid size of 2,319 m x 2,319 m.
-* The data were extracted from the original NetCDF (.NC) files downloaded from [NASA EarthData Search](https://search.earthdata.nasa.gov/search) to GeoTIFF (.tif) format using [ESA's SNAP Desktop software]() -> the specific product is the [**PACE OCI Level-3 Global Mapped Surface Reflectance Data, version 3.1**](https://www.earthdata.nasa.gov/data/catalog/ob-cloud-pace-oci-l3m-sfrefl-3.1), which has the short title "PACE_OCI_L3M_SFREFL".
+* The data were extracted from the original NetCDF (.NC) files downloaded from [NASA EarthData Search](https://search.earthdata.nasa.gov/search) to GeoTIFF (.tif) format using [ESA's SNAP Desktop software](https://step.esa.int/main/download/snap-download/2/) -> the specific product is the [**PACE OCI Level-3 Global Mapped Surface Reflectance Data, version 3.1**](https://www.earthdata.nasa.gov/data/catalog/ob-cloud-pace-oci-l3m-sfrefl-3.1), which has the short title "PACE_OCI_L3M_SFREFL".
 
 **Processing**
 * Toward processing of the data, the 21 months of PACE OCI surface reflectance data were first stacked together.
