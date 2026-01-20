@@ -13,6 +13,7 @@ Given the launch of the PACE observatory in early 2024 and its unique hyperspect
 * Demonstrate the utility of hyperspectral data from PACE OCI for mapping ecosystems for ecological conservation purposes
 * Demonstrate how hyperspectral data from PACE OCI can be fused with spaceborne LiDAR data from GEDI
 * Update the map of Central America's ecosystems, and use that as a case study for mapping ecosystems in other geographic domains
+* Leverage the cloud computing capabilities of GEE
 
 ## Methods
 **Geographic domain**
