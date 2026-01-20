@@ -10,7 +10,9 @@ In line with the adage that "you can't manage what you can't measure," ecosystem
 Given the launch of the PACE observatory in early 2024 and its unique hyperspectral imaging capabilities, we propose to utilize data from PACE's [Ocean Color Instrument (OCI)](https://pace.oceansciences.org/oci.htm) to generate an updated version of a regional ecosystem map of Central America, also leveraging vegetation structural data from NASA’s [Global Ecosystem Dynamics Investigation (GEDI)](https://gedi.umd.edu) mission. Due to the large data volumes that will have to be managed, and given the PI’s status as a [Google Developer Expert](https://g.dev/bzgeo), the cloud-based [Google Earth Engine (GEE)](https://code.earthengine.google.com/) platform will be leveraged for this research effort. A dedicated open repository for processing PACE OCI data for terrestrial applications will be one of the outputs of this effort. This will also complement work that the PI and the co-I have done in the context of the Ecosystem & Carbon Management thematic area of the [former] [SERVIR](https://github.com/SERVIR) program.
 
 ## Objectives
-*
+* Demonstrate the potential of hyperspectral data from PACE OCI for mapping ecosystems
+* Fuse data from PACE OCI and GEDI
+* Update the map of Central America's ecosystems
 
 ## Methods
 **Geographic domain**
@@ -30,6 +32,7 @@ Given the launch of the PACE observatory in early 2024 and its unique hyperspect
 * Toward processing of the data, the 21 months of PACE OCI surface reflectance data were first stacked together.
 * A full stack of the 21 months of that data results in an output raster dataset containing 2,562 spectral bands.
 * To reduce the data size, reduce spectral noise, and to emphasize spectral patterns common across the various bands and dates, [Principal Component Analysis (PCA)]() was employed.
+* TBD
 
 ## More information
 * [Project description](https://pace.oceansciences.org/people_ea.htm?id=127) at the PACE mission website (April 2025)
