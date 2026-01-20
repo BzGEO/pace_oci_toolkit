@@ -1,6 +1,12 @@
 # Integration of Hyperspectral Imagery and Spaceborne LiDAR Data for Updated Mapping of the Ecosystems in the Mesoamerican Biological Corridor
 *Last updated: 20.01.2026*
 
+## Co-authors
+* [Emil A. Cherrington](https://github.com/BzGEO), Ph.D., Principal Research Scientist, Lab for Applied Sciences, Earth System Science Center, the University of Alabama in Huntsville
+* [Kelsey E. Herndon](https://github.com/herndk1), Research Scientist, Lab for Applied Sciences, Earth System Science Center, the University of Alabama in Huntsville
+* [Betzy E. Hernandez Sandoval](https://github.com/BEHS), Research Scientist, Lab for Applied Sciences, Earth System Science Center, the University of Alabama in Huntsville
+* [Robert E. Griffin](https://github.com/r-griffin), Ph.D., Associate Professor, Department of Atmospheric and Earth Science, the University of Alabama in Huntsville
+
 ## Description
 This document serves as a chronicle of the ongoing (2025-present) PACE Early Adopter project on the use of OCI and other data for mapping ecosystems in Mesoamerica.
 
@@ -13,7 +19,7 @@ Given the launch of the PACE observatory in early 2024 and its unique hyperspect
 * Demonstrate the utility of hyperspectral data from PACE OCI for mapping ecosystems for ecological conservation purposes
 * Demonstrate how hyperspectral data from PACE OCI can be fused with spaceborne LiDAR data from GEDI
 * Update the map of Central America's ecosystems, and use that as a case study for mapping ecosystems in other geographic domains
-* Leverage the cloud computing capabilities of GEE
+* Leverage the cloud computing capabilities of GEE, including the GEE-based [PACE OCI Toolkit](https://github.com/BzGEO/pace_oci_toolkit)
 
 ## Methods
 **Geographic domain**
@@ -39,8 +45,11 @@ Given the launch of the PACE observatory in early 2024 and its unique hyperspect
 ## Results
 * TBD
 
-## More information
-* [Project description](https://pace.oceansciences.org/people_ea.htm?id=127) at the PACE mission website (April 2025)
+## Conclusions
+* TBD
+
+## Acknowledgements
+* TBD
 
 ## References
 * Herndon, K.E., Griffin, R., Schroder, W., Murtha, T., Golden, C., Contreras, D.A., Cherrington, E.A., Wang, L., Barazsky, A., Van Kollias, G., Alcover Firpi, O. 2023. Google Earth Engine for archaeologists: An updated look at the progress and promise of remotely sensed big data. Journal of Archaeological Science: Reports, 50: 104094. DOI: https://doi.org/10.1016/j.jasrep.2023.104094
@@ -54,3 +63,6 @@ Given the launch of the PACE observatory in early 2024 and its unique hyperspect
 * Hernandez, B., Flores, A., Garcia, B., Clemente, A., Moran, M., Cherrington, E.A., Oyuela, M., Smith, O., and J.M. Guardia. 2011. Satellite Monitoring of Lake Atitlan in Guatemala. Proceedings of the Second International Symposium on Building Knowledge Bridges for a Sustainable Water Future: 234-238. Panama City, Panama. November 2011.
 
 * Hernandez, B., Garcia, B., Garrish, V., Cherrington, E.A., Picado, F., Sempris, E. 2011. Mapa Centroamericana de cobertura y uso de la tierra, cambios de cobertura y uso de la tierra 1980-1990-2000-2010. Technical report, no. PREVDA/UGR/SER/14/08. Water Center for the Humid Tropics of Latin America and the Caribbean (CATHALAC). Panama City, Panama. 152 pp. DOI: http://dx.doi.org/10.13140/RG.2.2.16349.82409.
+
+## Supplementary information
+* [Project description](https://pace.oceansciences.org/people_ea.htm?id=127) at the PACE mission website (April 2025)
