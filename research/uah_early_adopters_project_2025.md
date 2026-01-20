@@ -2,10 +2,10 @@
 *Last updated: 20.01.2026*
 
 ## Co-authors
-* [Emil A. Cherrington](https://github.com/BzGEO), Ph.D., Principal Research Scientist, Lab for Applied Sciences, Earth System Science Center, the University of Alabama in Huntsville
+* [Emil A. Cherrington](https://github.com/BzGEO), Ph.D., Principal Research Scientist, [Lab for Applied Sciences](https://www.uah.edu/essc/laboratory-for-applied-science), [Earth System Science Center](https://www.uah.edu/essc), the [University of Alabama in Huntsville](https://www.uah.edu)
 * [Kelsey E. Herndon](https://github.com/herndk1), Research Scientist, Lab for Applied Sciences, Earth System Science Center, the University of Alabama in Huntsville
 * [Betzy E. Hernandez Sandoval](https://github.com/BEHS), Research Scientist, Lab for Applied Sciences, Earth System Science Center, the University of Alabama in Huntsville
-* [Robert E. Griffin](https://github.com/r-griffin), Ph.D., Associate Professor, Department of Atmospheric and Earth Science, the University of Alabama in Huntsville
+* [Robert E. Griffin](https://github.com/r-griffin), Ph.D., Associate Professor, [Department of Atmospheric and Earth Science](https://www.uah.edu/science/departments/atmospheric-earth-science), the University of Alabama in Huntsville
 
 ## Description
 This document serves as a chronicle of the ongoing (2025-present) PACE Early Adopter project on the use of OCI and other data for mapping ecosystems in Mesoamerica.
