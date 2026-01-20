@@ -1,6 +1,9 @@
 # Integration of Hyperspectral Imagery and Spaceborne LiDAR Data for Updated Mapping of the Ecosystems in the Mesoamerican Biological Corridor
 *Last updated: 20.01.2026*
 
+## Description
+This document serves as a chronicle of the ongoing (2025-present) PACE Early Adopter project on the use of OCI and other data for mapping ecosystems in Mesoamerica.
+
 ## Project overview
 In line with the adage that "you can't manage what you can't measure," ecosystem maps are crucial tools for conservation. Toward that, in 1999 - twenty five years before the launch of NASA's [PACE observatory](https://pace.oceansciences.org/home.htm) - the World Bank and the Government of the Netherlands funded a critical effort to map the terrestrial ecosystems of Central America, long recognized as one of the world's biodiversity hotspots, but which had also been affected by widespread deforestation in the 1970s and the 1980s. By 2002, regional scientists had completed a [map](https://documents1.worldbank.org/curated/en/504821468016811336/pdf/352550rev.pdf) - based on visual interpretation of [Landsat Thematic Mapper](https://science.nasa.gov/mission/landsat/tm/) data (from NASA and the USGS) - which recognized almost 200 individual ecosystem types. In the almost quarter century since the publication of that effort ([*Vreugdenhil et al. 2002*](https://documents1.worldbank.org/curated/en/504821468016811336/pdf/352550rev.pdf)), while access to spaceborne Earth observation data has grown exponentially, the Central American ecosystem mapping data have not been updated.
 
@@ -10,7 +13,9 @@ Given the launch of the PACE observatory in early 2024 and its unique hyperspect
 *
 
 ## Methods
-* 
+**Geographic domain**: Mesoamerica -> [EPSG 4326](https://spatialreference.org/ref/epsg/4326/) (GCS WGS84) coordinates: 22, -93, 7, -77 (N, W, S, E)
+
+* As of the writing of this document (20.01.2026), some 21 monthly surface reflectance mosaics are available from PACE OCI, spanning March 2024 through November 2025.
 
 
 ## More information
