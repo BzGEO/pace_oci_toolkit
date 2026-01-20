@@ -12,7 +12,7 @@ Given the launch of the PACE observatory in early 2024 and its unique hyperspect
 ## Objectives
 * Demonstrate the potential of hyperspectral data from PACE OCI for mapping ecosystems
 * Fuse data from PACE OCI and GEDI
-* Update the map of Central America's ecosystems
+* Update the map of Central America's ecosystems, and use that as a case study for mapping ecosystems in other geographic domains
 
 ## Methods
 **Geographic domain**
