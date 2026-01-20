@@ -14,7 +14,7 @@ Given the launch of the PACE observatory in early 2024 and its unique hyperspect
 
 
 ## More information
-* [Project description](https://pace.oceansciences.org/people_ea.htm?id=127) at the PACE mission website
+* [Project description](https://pace.oceansciences.org/people_ea.htm?id=127) at the PACE mission website (April 2025)
 
 ## References
 * Herndon, K.E., Griffin, R., Schroder, W., Murtha, T., Golden, C., Contreras, D.A., Cherrington, E.A., Wang, L., Barazsky, A., Van Kollias, G., Alcover Firpi, O. 2023. Google Earth Engine for archaeologists: An updated look at the progress and promise of remotely sensed big data. Journal of Archaeological Science: Reports, 50: 104094. DOI: https://doi.org/10.1016/j.jasrep.2023.104094
