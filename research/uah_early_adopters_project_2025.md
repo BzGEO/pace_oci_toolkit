@@ -1,5 +1,5 @@
 # Integration of Hyperspectral Imagery and Spaceborne LiDAR Data for Updated Mapping of the Ecosystems in the Mesoamerican Biological Corridor
-*Last updated: 20.01.2026*
+*Last updated: 21.01.2026*
 
 ## Co-authors
 * [Emil A. Cherrington](https://github.com/BzGEO), Ph.D., Principal Research Scientist, [Lab for Applied Sciences](https://www.uah.edu/essc/laboratory-for-applied-science), [Earth System Science Center](https://www.uah.edu/essc), the [University of Alabama in Huntsville](https://www.uah.edu)
@@ -39,13 +39,17 @@ Given the launch of the PACE observatory in early 2024 and its unique hyperspect
 **Processing**
 * Toward processing of the data, the 21 months of PACE OCI surface reflectance data were first stacked together.
 * A full stack of the 21 months of that data results in an output raster dataset containing 2,562 spectral bands.
-* To reduce the data size, reduce spectral noise, and to emphasize spectral patterns common across the various bands and dates, [Principal Component Analysis (PCA)]() was employed.
-* While the extraction of principal components could have been done in GEE, the operation was relatively resource consuming (i.e., it caused memory timeouts), so the PCA was done using the ArcGIS Desktop v. 10.8.2 platform.
+* To reduce the data volume, the data were rescaled to 16-bit unsigned integers, by multiplying the data by 10,000 and then converting the data from floating point to integers.
+* (By multiplying the data by 10,000, values with 100% reflectance becomes 10,000, while data with 0% reflectance remain 0.)
+* To reduce the data size, reduce spectral noise, and to emphasize spectral patterns common across the various bands and dates, [Principal Component Analysis (PCA)](https://pmc.ncbi.nlm.nih.gov/articles/PMC4792409/) was employed.
+* While the extraction of principal components could have been done in GEE, the operation was relatively resource consuming (i.e., it caused memory timeouts), so the PCA was done using the ArcGIS Pro 3.5.4 platform, on a Windows workstation with 32GB of RAM, and a 3.3 GHz Intel i5 processor (12th generation).
+* On that workstation, conducting 
 * TBD
 
 ## Results
 * From the PCA of the 2,652 band raster, it was revealed that 99% of the data variation were captured in the first 19 principal components (of 2,652 potential components).
 * Additionally, 94.68% of the variation was captured just in the first principal component, and 97.87% of the variation was captured in the first 10 principal components.
+* And compared to the original 
 * TBD
 
 ## Conclusions
