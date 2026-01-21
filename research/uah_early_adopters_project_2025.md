@@ -43,7 +43,7 @@ Given the launch of the PACE observatory in early 2024 and its unique hyperspect
 * (By multiplying the data by 10,000, values with 100% reflectance becomes 10,000, while data with 0% reflectance remain 0.)
 * To reduce the data size, reduce spectral noise, and to emphasize spectral patterns common across the various bands and dates, [Principal Component Analysis (PCA)](https://pmc.ncbi.nlm.nih.gov/articles/PMC4792409/) was employed.
 * While the extraction of principal components could have been done in GEE, the operation was relatively resource consuming (i.e., it caused memory timeouts), so the PCA was done using the ArcGIS Pro 3.5.4 platform, on a Windows workstation with 32GB of RAM, and a 3.3 GHz Intel i5 processor (12th generation).
-* On that workstation, conducting 
+* On that workstation, conducting the PCA took approximately 8 hours and 25 minutes.
 * TBD
 
 ## Results
