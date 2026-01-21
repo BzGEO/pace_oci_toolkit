@@ -44,8 +44,8 @@ Given the launch of the PACE observatory in early 2024 and its unique hyperspect
 * TBD
 
 ## Results
-* From the PCA of the 2,652 band raster, it was revealed that 99% of the data variation were captured in the first 18 principal components (of 2,652 potential components).
-* Additionally, 94.6% of the variation was captured just in the first principal component, and 97.98% of the variation was captured in the first 10 principal components.
+* From the PCA of the 2,652 band raster, it was revealed that 99% of the data variation were captured in the first 19 principal components (of 2,652 potential components).
+* Additionally, 94.68% of the variation was captured just in the first principal component, and 97.87% of the variation was captured in the first 10 principal components.
 * TBD
 
 ## Conclusions
