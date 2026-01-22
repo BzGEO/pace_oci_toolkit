@@ -55,7 +55,7 @@ Given the launch of the PACE observatory in early 2024 and its unique hyperspect
 
 ### Table 1. Percent and accumulative eigenvalues
 
-### PC Layer   EigenValue   Percent of EigenValues   Accumulative of EigenValues
+### PC layer   EigenValue   % of EigenValues   Accumulative of EigenValues
         1  1.479848e+09          94.6251               94.6251
         2  1.227428e+07           0.7848               95.4099
         3  9.764236e+06           0.6243               96.0343
@@ -76,6 +76,9 @@ Given the launch of the PACE observatory in early 2024 and its unique hyperspect
        18  1.584074e+06           0.1013               98.8928
        19  1.393348e+06           0.0891               98.9819
        20  1.282326e+06           0.0820               99.0639
+
+## Discussion
+* Can we use the methods we have explored in this research to gain insights - enabled by PACE's hyperspectral data - into the spatial distribution of ecosystems in other parts of the world?
 
 
 ## Conclusions
