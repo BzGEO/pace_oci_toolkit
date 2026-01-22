@@ -1,5 +1,5 @@
 # Integration of Hyperspectral Imagery and Spaceborne LiDAR Data for Updated Mapping of the Ecosystems in the Mesoamerican Biological Corridor
-*Last updated: 21.01.2026*
+*Last updated: 22.01.2026*
 
 ## Co-authors
 * [Emil A. Cherrington](https://github.com/BzGEO), Ph.D., Principal Research Scientist, [Lab for Applied Sciences](https://www.uah.edu/essc/laboratory-for-applied-science), [Earth System Science Center](https://www.uah.edu/essc), the [University of Alabama in Huntsville](https://www.uah.edu)
@@ -48,8 +48,8 @@ Given the launch of the PACE observatory in early 2024 and its unique hyperspect
 * TBD
 
 ## Results
-* From the PCA of the 2,652 band raster, it was revealed that 99.12% of the data variation were captured in the first 20 principal components (of 2,652 potential components).
-* Additionally, 94.68% of the variation was captured just in the first principal component, and 97.87% of the variation was captured in the first 10 principal components.
+* From the PCA of the 2,652 band raster, it was revealed that 99.06% of the data variation were captured in the first 20 principal components (of 2,652 potential components).
+* Additionally, 94.63% of the variation was captured just in the first principal component, and 97.82% of the variation was captured in the first 10 principal components.
 * And compared to the original ~3 GB data stack of the 21 months of surface reflectance data, the 20 band PCA output was only 39 MB.
 * TBD
 
