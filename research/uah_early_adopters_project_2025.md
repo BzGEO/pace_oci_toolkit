@@ -53,6 +53,31 @@ Given the launch of the PACE observatory in early 2024 and its unique hyperspect
 * And compared to the original ~3 GB data stack of the 21 months of surface reflectance data, the 20 band PCA output was only 39 MB.
 * TBD
 
+### Table 1. Percent and accumulative eigenvalues
+
+### PC Layer   EigenValue   Percent of EigenValues   Accumulative of EigenValues
+        1  1.479848e+09          94.6251               94.6251
+        2  1.227428e+07           0.7848               95.4099
+        3  9.764236e+06           0.6243               96.0343
+        4  5.712588e+06           0.3653               96.3995
+        5  4.925524e+06           0.3149               96.7145
+        6  4.250913e+06           0.2718               96.9863
+        7  3.809846e+06           0.2436               97.2299
+        8  3.410794e+06           0.2181               97.4480
+        9  2.938946e+06           0.1879               97.6359
+       10  2.868998e+06           0.1835               97.8194
+       11  2.593107e+06           0.1658               97.9852
+       12  2.452383e+06           0.1568               98.1420
+       13  2.375681e+06           0.1519               98.2939
+       14  2.253670e+06           0.1441               98.4380
+       15  1.994205e+06           0.1275               98.5655
+       16  1.866646e+06           0.1194               98.6849
+       17  1.667166e+06           0.1066               98.7915
+       18  1.584074e+06           0.1013               98.8928
+       19  1.393348e+06           0.0891               98.9819
+       20  1.282326e+06           0.0820               99.0639
+
+
 ## Conclusions
 * TBD
 
