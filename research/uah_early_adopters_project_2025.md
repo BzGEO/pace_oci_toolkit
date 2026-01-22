@@ -55,7 +55,9 @@ Given the launch of the PACE observatory in early 2024 and its unique hyperspect
 
 ### Table 1. Percent and accumulative eigenvalues
 
-### PC layer   EigenValue   % of EigenValues   Accumulative of EigenValues
+| PC | Eigenvalue | % of EigenValues | Accumulative of EigenValues |
+| --- | --- | --- | --- |
+
         1  1.479848e+09          94.6251               94.6251
         2  1.227428e+07           0.7848               95.4099
         3  9.764236e+06           0.6243               96.0343
