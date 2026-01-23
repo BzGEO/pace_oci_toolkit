@@ -1,5 +1,5 @@
 # Integration of Hyperspectral Imagery and Spaceborne LiDAR Data for Updated Mapping of the Ecosystems in the Mesoamerican Biological Corridor
-*Last updated: 22.01.2026*
+*Last updated: 23.01.2026*
 
 ## Co-authors
 * [Emil A. Cherrington](https://github.com/BzGEO), Ph.D., Principal Research Scientist, [Lab for Applied Sciences](https://www.uah.edu/essc/laboratory-for-applied-science), [Earth System Science Center](https://www.uah.edu/essc), the [University of Alabama in Huntsville](https://www.uah.edu)
