@@ -3,6 +3,9 @@
 
 **Note:** The status of PACE OCI LandVI [*and now the Chlorophyll-a*] updates can be tracked using the following [calendar](https://bit.ly/pace_oci_8d_cal).
 
+## Updates: 25.01.2026
+1. The PACE OCI data (8D and monthly) have not been updated past November 2025.
+
 ## Updates: 21.01.2026
 1. A PACE training webinar will be included as a pre-event for the [ForestSat 2026 conference](https://www.forestsat.com/). See: https://carlos-alberto-silva.github.io/silvalab/ForestSAT2026/documents/virtual_workshops/Morgaine%20McKibben.pdf. The full list of pre-event webinars is listed [here](https://event.fourwaves.com/forestsatworkshopseries/pages).
 
