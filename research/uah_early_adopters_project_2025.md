@@ -1,5 +1,5 @@
 # Integration of Hyperspectral Imagery and Spaceborne LiDAR Data for Updated Mapping of the Ecosystems in the Mesoamerican Biological Corridor
-*Last updated: 23.01.2026*
+*Last updated: 03.02.2026*
 
 ## Co-authors
 * [Emil A. Cherrington](https://github.com/BzGEO), Ph.D., Principal Research Scientist, [Lab for Applied Sciences](https://www.uah.edu/essc/laboratory-for-applied-science), [Earth System Science Center](https://www.uah.edu/essc), the [University of Alabama in Huntsville](https://www.uah.edu)
@@ -51,6 +51,8 @@ Given the launch of the PACE observatory in early 2024 and its unique hyperspect
   ]
 }
 ```
+
+**Figure 1: Study area geographic extent**
 
 * The domain covers all of continental territories of the 7 Central American countries (Belize, Guatemala, El Salvador, Honduras, Nicaragua, Costa Rica, and Panama), total coverage of 3 southern states in Mexico (Campeche, Quintana Roo, Yucatan), and partial coverage of 2 other southern states in Mexico (Chiapas, Tabasco).
 
