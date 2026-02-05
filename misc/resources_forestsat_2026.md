@@ -1,4 +1,4 @@
-# PACE OCI Toolkit related to the ForestSat 2026 pre-conference [webinar](https://www.linkedin.com/posts/forestsatassociation_upcoming-workshop-nasas-new-pace-mission-activity-7419376843260186624-QHpi)
+# PACE OCI Toolkit info related to the ForestSat 2026 pre-conference [webinar](https://www.linkedin.com/posts/forestsatassociation_upcoming-workshop-nasas-new-pace-mission-activity-7419376843260186624-QHpi)
 *last updated: 05.02.2026*
 
 ## Links
