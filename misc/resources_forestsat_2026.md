@@ -17,4 +17,5 @@
 * ForestSat 2026 PACE webinar [agenda](https://docs.google.com/document/d/1nVmsEwpXDHRnvdItm2KpcJ2zo0MffXCOp2GkYm0U5CA)
 * ForestSat 2026 webinar [list](https://event.fourwaves.com/forestsatworkshopseries/pages)
 * ForestSat 2026 [site](https://carlos-alberto-silva.github.io/silvalab/ForestSAT2026/)
+* PACE mission [page](https://pace.oceansciences.org/home.htm)
 * PACE OCI land *humor* on social media ([BlueSky](https://bsky.app/profile/bzgeo.bsky.social/post/3me4lgsuohs2c), [Twitter](https://x.com/BzGEO/status/2019415450380300473))
