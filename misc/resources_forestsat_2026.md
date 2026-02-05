@@ -12,6 +12,8 @@
 > [!NOTE]
 > See details of the **PACE OCI Toolkit** via its GitHub repo: https://github.com/BzGEO/pace_oci_toolkit.
 
+> [!NOTE]
+> Also see Skye Caplan's **PACE tutorials** GitHub repo: https://github.com/skyecaplan/pace_tutorials.
 
 ## Other
 * ForestSat 2026 PACE webinar [agenda](https://docs.google.com/document/d/1nVmsEwpXDHRnvdItm2KpcJ2zo0MffXCOp2GkYm0U5CA)
