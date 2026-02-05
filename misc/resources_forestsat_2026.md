@@ -9,6 +9,10 @@
 > [!TIP]
 > Use the following link to add the **PACE OCI Toolkit** ***directly*** to your GEE account: https://bit.ly/gee_repo_pace_oci.
 
+> [!TIP]
+> Use the following link to add the **Hyperspectral Toolkit** ***directly*** to your GEE account: https://bit.ly/gee_repo_hyperspectral.
+> This is a dependency for the **PACE OCI Toolkit**, and contains references to the *provisional* PACE OCI data uploaded thus far to GEE.
+
 > [!NOTE]
 > See details of the **PACE OCI Toolkit** via its GitHub repo: https://github.com/BzGEO/pace_oci_toolkit.
 
