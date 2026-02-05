@@ -9,4 +9,4 @@
 ## Other
 * ForestSat 2026 PACE webinar [agenda](https://docs.google.com/document/d/1nVmsEwpXDHRnvdItm2KpcJ2zo0MffXCOp2GkYm0U5CA)
 * ForestSat 2026 webinar [list](https://event.fourwaves.com/forestsatworkshopseries/pages)
-* PACE OCI land humor on BlueSky: https://bsky.app/profile/bzgeo.bsky.social/post/3me4lgsuohs2c
+* PACE OCI land humor on [BlueSky](https://bsky.app/profile/bzgeo.bsky.social/post/3me4lgsuohs2c) or [Twitter](https://x.com/BzGEO/status/2019415450380300473)
