@@ -19,8 +19,10 @@
 > [!NOTE]
 > Also see Skye Caplan's **PACE tutorials** GitHub repo: https://github.com/skyecaplan/pace_tutorials.
 
+<!--
 > [!IMPORTANT]
 > Post workshop [survey1](https://docs.google.com/forms/d/e/1FAIpQLScdnwclMFOvEfy1fQ6S_KUBOJG0G_N4SDqpfNg_vm9wW51upw/viewform) / [survey2](https://forms.gle/g38RmrccTBiWJeZF8)
+-->
 
 ## Other
 * ForestSat 2026 PACE webinar [agenda](https://docs.google.com/document/d/1nVmsEwpXDHRnvdItm2KpcJ2zo0MffXCOp2GkYm0U5CA)
