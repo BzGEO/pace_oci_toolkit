@@ -3,6 +3,9 @@
 
 **Note:** The status of PACE OCI LandVI [*and now the Chlorophyll-a*] updates can be tracked using the following [calendar](https://bit.ly/pace_oci_8d_cal).
 
+## Updates: 09.02.2026
+1. I have uploaded a 1km single date image for 2 Feb. 2026 for the Mesoamerica domain. I still have yet to update the repository with the file data reference.
+
 ## Updates: 06.02.2026
 1. The PACE OCI data (8D and monthly) have still not been updated past November 2025.
 
