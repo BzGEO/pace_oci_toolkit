@@ -3,6 +3,9 @@
 
 **Note:** The status of PACE OCI LandVI [*and now the Chlorophyll-a*] updates can be tracked using the following [calendar](https://bit.ly/pace_oci_8d_cal).
 
+## Updates: 10.02.2026
+1. Some clear PACE OCI images are available over northern Mesoamerica for the past few days (as shown in [NASA EOSDIS WorldView](https://worldview.earthdata.nasa.gov). This should be looked into in additional detail.
+
 ## Updates: 09.02.2026
 1. I have uploaded a 1km single date image for 2 Feb. 2026 for the Mesoamerica domain. I still have yet to update the repository with the file data reference.
 
