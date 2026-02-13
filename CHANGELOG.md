@@ -3,6 +3,15 @@
 
 **Note:** The status of PACE OCI LandVI [*and now the Chlorophyll-a*] updates can be tracked using the following [calendar](https://bit.ly/pace_oci_8d_cal).
 
+## Updates: 13.02.2026
+1. The processing backlog for the PACE OCI data remains. The following - captured minutes ago - shows the latest 8-day 2km LandVI data which are available via either NASA EarthData search or via the OB.DAAC itself. The most recent 8-day 2km LandVI data are for the period 24.10.2025 to 31.10.2025.
+
+* From NASA EarthData Search:
+<img width="751" height="802" alt="image" src="https://github.com/user-attachments/assets/1446252c-02f5-4e7c-967f-10adcee384d6" />
+
+* From the OB.DAAC:
+<img width="705" height="59" alt="image" src="https://github.com/user-attachments/assets/d57fd2af-8ddf-4f68-8314-3ef5c62371c1" />
+
 ## Updates: 10.02.2026
 1. Some clear PACE OCI images are available over northern Mesoamerica for the past few days (as shown in [NASA EOSDIS WorldView](https://worldview.earthdata.nasa.gov), e.g., [02.02.2026](https://go.nasa.gov/3ZwjLn7), [06.02.2026](https://go.nasa.gov/4rDKyK3), [07.02.2026](https://go.nasa.gov/4rcbe4Z). This should be looked into in additional detail.
 
