@@ -3,6 +3,12 @@
 
 **Note:** The status of PACE OCI LandVI [*and now the Chlorophyll-a*] updates can be tracked using the following [calendar](https://bit.ly/pace_oci_8d_cal).
 
+## Updates: 14.02.2026
+1. ICYMI, in December, it was announced that some PACE OCI datasets were integrated into Esri's Living Atlas platform:
+* https://www.earthdata.nasa.gov/news/new-pace-imagery-services-arcgis-living-atlas-world
+* https://www.esri.com/arcgis-blog/products/arcgis-living-atlas/imagery/explore-nasa-pace-data-with-arcgis
+* https://pace.oceansciences.org/blog.htm
+
 ## Updates: 13.02.2026
 1. The processing backlog for the PACE OCI data remains. The following - captured minutes ago - shows the latest 8-day 2km LandVI data which are available via either NASA EarthData search or via the OB.DAAC itself. The most recent 8-day 2km LandVI data are for the period 24.10.2025 to 31.10.2025.
 
