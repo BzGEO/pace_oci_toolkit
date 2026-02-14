@@ -4,7 +4,7 @@
 **Note:** The status of PACE OCI LandVI [*and now the Chlorophyll-a*] updates can be tracked using the following [calendar](https://bit.ly/pace_oci_8d_cal).
 
 ## Updates: 14.02.2026
-1. ICYMI, in December, it was announced that some PACE OCI datasets were integrated into Esri's Living Atlas platform:
+1. ICYMI, in December 2025, it was announced that some PACE OCI datasets were integrated into Esri's Living Atlas platform:
 * https://www.earthdata.nasa.gov/news/new-pace-imagery-services-arcgis-living-atlas-world
 * https://www.esri.com/arcgis-blog/products/arcgis-living-atlas/imagery/explore-nasa-pace-data-with-arcgis
 * https://pace.oceansciences.org/blog.htm
