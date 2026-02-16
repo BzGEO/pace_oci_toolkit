@@ -3,6 +3,9 @@
 
 **Note:** The status of PACE OCI LandVI [*and now the Chlorophyll-a*] updates can be tracked using the following [calendar](https://bit.ly/pace_oci_8d_cal).
 
+## Updates: 16.02.2026
+1. To read: [The Global Spectra-Trait Initiative: A database of paired leaf spectroscopy and functional traits associated with leaf photosynthetic capacity](https://essd.copernicus.org/articles/18/245/2026/essd-18-245-2026.html) (Lamour et al., 2026)
+
 ## Updates: 14.02.2026
 1. ICYMI, in December 2025, it was announced that some PACE OCI datasets were integrated into Esri's Living Atlas platform:
 * https://www.earthdata.nasa.gov/news/new-pace-imagery-services-arcgis-living-atlas-world
