@@ -3,6 +3,9 @@
 
 **Note:** The status of PACE OCI LandVI [*and now the Chlorophyll-a*] updates can be tracked using the following [calendar](https://bit.ly/pace_oci_8d_cal).
 
+## Updates: 25.02.2026
+1. The processing backlog for the PACE OCI data remains. The most recent 8-day 2km LandVI data are for the period 24.10.2025 to 31.10.2025.
+
 ## Updates: 16.02.2026
 1. To read: [The Global Spectra-Trait Initiative: A database of paired leaf spectroscopy and functional traits associated with leaf photosynthetic capacity](https://essd.copernicus.org/articles/18/245/2026/essd-18-245-2026.html) (Lamour et al., 2026)
 
