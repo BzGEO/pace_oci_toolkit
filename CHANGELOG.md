@@ -3,6 +3,9 @@
 
 **Note:** The status of PACE OCI LandVI [*and now the Chlorophyll-a*] updates can be tracked using the following [calendar](https://bit.ly/pace_oci_8d_cal).
 
+## Updates: 02.03.2026
+1. The processing of the December 2025 and January 2026 data are in process. Updates will be provided as the data are ingested into GEE.
+
 ## Updates: 28.02.2026
 1. Monthly PACE OCI data for December 2025 and January 2026 are now available. I am in the process of acquiring them for conversion to GeoTIF format and uploading to GEE. Additional, higher spatial resolution products appear to be available from NASA EarthData and the OB.DAAC.
 
