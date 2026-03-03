@@ -3,6 +3,9 @@
 
 **Note:** The status of PACE OCI LandVI [*and now the Chlorophyll-a*] updates can be tracked using the following [calendar](https://bit.ly/pace_oci_8d_cal).
 
+## Updates: 03.02.2026
+1. The ingestion of the updated *monthly* PACE OCI products is now in process.
+
 ## Updates: 02.03.2026
 1. The processing of the December 2025 and January 2026 data are in process. Updates will be provided as the data are ingested into GEE.
 
