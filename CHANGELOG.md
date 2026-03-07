@@ -6,7 +6,7 @@
 ## Updates: 07.03.2026
 1. As of yesterday evening, the monthly collections for LandVI, RRS, and SFREFL have been updated.
 
-## Updates: 03.02.2026
+## Updates: 03.03.2026
 1. The ingestion of the updated *monthly* PACE OCI products is now in process.
 
 ## Updates: 02.03.2026
