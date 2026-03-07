@@ -3,6 +3,9 @@
 
 **Note:** The status of PACE OCI LandVI [*and now the Chlorophyll-a*] updates can be tracked using the following [calendar](https://bit.ly/pace_oci_8d_cal).
 
+## Updates: 07.03.2026
+1. As of yesterday evening, the monthly collections for LandVI, RRS, and SFREFL have been updated.
+
 ## Updates: 03.02.2026
 1. The ingestion of the updated *monthly* PACE OCI products is now in process.
 
