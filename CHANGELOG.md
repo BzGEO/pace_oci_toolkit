@@ -4,7 +4,7 @@
 **Note:** The status of PACE OCI LandVI [*and now the Chlorophyll-a*] updates can be tracked using the following [calendar](https://bit.ly/pace_oci_8d_cal).
 
 ## Updates: 11.03.2026
-1. During the ongoing [PACE Applications Workshop](https://nasa-ext.app.box.com/s/v90t3bj3vjrwj5p63p99ometkpwa6eqw) which began today, a new version of the PACE Data Products Table was unveiled: https://pace.oceansciences.org/data_table.htm.
+1. During the ongoing [PACE Applications Workshop](https://nasa-ext.app.box.com/s/v90t3bj3vjrwj5p63p99ometkpwa6eqw) which began today, a new version of the PACE Data Products Table was unveiled: https://pace.oceansciences.org/data_table.htm. The sheer number of PACE data products is staggering.
 
 ## Updates: 09.03.2026
 1. ICYMI, the PACE OCI Toolkit will have a demo during the PACE Applications Workshop this week. See the agenda here: https://nasa-ext.app.box.com/s/v90t3bj3vjrwj5p63p99ometkpwa6eqw.
