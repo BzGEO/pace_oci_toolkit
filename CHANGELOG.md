@@ -3,6 +3,9 @@
 
 **Note:** The status of PACE OCI LandVI [*and now the Chlorophyll-a*] updates can be tracked using the following [calendar](https://bit.ly/pace_oci_8d_cal).
 
+## Updates: 17.03.2026
+1. As of this morning, there is a delay in the availability of PACE OCI 8D and monthly data. The most recently available 8D data covers the 17-24 Jan. 2026 period, and the most recently available monthly data are for January 2026 (i.e., no Feb. 2026 data are yet available).
+
 ## Updates: 11.03.2026
 1. During the ongoing [PACE Applications Workshop](https://nasa-ext.app.box.com/s/v90t3bj3vjrwj5p63p99ometkpwa6eqw) which began today, a new version of the PACE Data Products Table was unveiled: https://pace.oceansciences.org/data_table.htm. The sheer number of PACE data products is staggering.
 
