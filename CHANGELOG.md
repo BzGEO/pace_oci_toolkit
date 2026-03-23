@@ -3,6 +3,9 @@
 
 **Note:** The status of PACE OCI LandVI [*and now the Chlorophyll-a*] updates can be tracked using the following [calendar](https://bit.ly/pace_oci_8d_cal).
 
+## Updates: 23.03.2026
+1. As of this morning, there is *still* a delay in the availability of PACE OCI 8D and monthly data, with the most recently available 8D data being the 17-24 Jan. 2026 period, and the most recently available monthly data being for Jan. 2026.
+
 ## Updates: 17.03.2026
 1. As of this morning, there is a delay in the availability of PACE OCI 8D and monthly data. The most recently available 8D data covers the 17-24 Jan. 2026 period, and the most recently available monthly data are for January 2026 (i.e., no Feb. 2026 data are yet available).
 
