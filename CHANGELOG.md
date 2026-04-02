@@ -4,7 +4,7 @@
 **Note:** The status of PACE OCI LandVI [*and now the Chlorophyll-a*] updates can be tracked using the following [calendar](https://bit.ly/pace_oci_8d_cal).
 
 ## Updates: 01.04.2026
-1. A next must-read paper covering *imaging spectroscopy*: *Hayden et al.* (2026) ["Scale dependence in remotely sensed biodiversity: Leveraging continental-scale imaging spectroscopy from the National Ecological Observatory Network"](https://zslpublications.onlinelibrary.wiley.com/doi/full/10.1002/rse2.70068)
+1. A next must-read paper covering ***imaging spectroscopy***: *Hayden et al.* (2026) ["Scale dependence in remotely sensed biodiversity: Leveraging continental-scale imaging spectroscopy from the National Ecological Observatory Network"](https://zslpublications.onlinelibrary.wiley.com/doi/full/10.1002/rse2.70068)
 
 ## Updates: 23.03.2026
 1. As of this morning, there is *still* a delay in the availability of PACE OCI 8D and monthly data, with the most recently available 8D data being the 17-24 Jan. 2026 period, and the most recently available monthly data being for Jan. 2026.
