@@ -47,7 +47,9 @@ To add the code repository 💾 directly to your GEE account, use the following 
 
 ![](https://github.com/BzGEO/pace_oci_toolkit/blob/main/_graphics/hyperspectral_data_explorer__pace_oci.PNG)
 
-5. Videos 🎥 featuring the PACE OCI Toolkit are available in the following recordings:
+### Video demos
+
+Videos 🎥 featuring the PACE OCI Toolkit are available in the following recordings:
 
 * [*1 July 2025*] The 2nd [PACE Land data Users' Group (PLUG) meeting](https://pace.oceansciences.org/events_more.htm?id=77): https://youtu.be/hOu8rPd_x6I?t=1779.
 * [*22 July 2025*] The 2nd day of the NASA Earthdata webinar on the [Fundamentals of Hyperspectral & Thermal Earth Observations](https://www.earthdata.nasa.gov/events/fundamentals-use-hyperspectral-thermal-nasa-earth-observations): https://youtu.be/0JuN_raCcvk?t=8827.
