@@ -13,7 +13,7 @@ This is a set of JavaScript-based [Google Earth Engine 🌎 (GEE)](https://code.
 
 ## User Survey 📢
 > [!IMPORTANT]
-> Have you used the PACE OCI Toolkit? If so, fill out our short [survey](https://bit.ly/survey_pace_toolkit)!
+> Have you used the PACE OCI Toolkit? 🤔 If so, fill out our short [survey](https://bit.ly/survey_pace_toolkit)!
 
 
 ## Functions
