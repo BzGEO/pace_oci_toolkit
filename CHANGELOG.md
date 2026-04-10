@@ -3,6 +3,9 @@
 
 **Note:** The status of PACE OCI LandVI [*and now the Chlorophyll-a*] updates can be tracked using the following [calendar](https://bit.ly/pace_oci_8d_cal).
 
+## Updates: 10.04.2026
+1. Relevant to hyperspectral in general, NEON will be hosting a webinar on the use of Google Earth Engine (GEE) for remote sensing: https://eservices.esa.org/ProductDetail?iProductCode=WEB260428&_gl=1*1wyho7k*_gcl_au*MTQ2MTI1MjQ4Mi4xNzc1NzUzOTAz*_ga*MTYxNDE0MTIwMy4xNzc1NjgwNTg0*_ga_MGTVYRY71J*czE3NzU4MjkwMTgkbzIkZzAkdDE3NzU4MjkwMTgkajYwJGwwJGgw.
+
 ## Updates: 08.04.2026
 1. As of this afternoon, there is *still* a delay in the availability of PACE OCI 8D and monthly data, with the most recently available 8D data being the 17-24 Jan. 2026 period, and the most recently available monthly data being for Jan. 2026. In terms of monthly data, the February and March 2026 data are still pending.
 
