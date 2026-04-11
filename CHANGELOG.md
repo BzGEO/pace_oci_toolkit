@@ -3,6 +3,7 @@
 
 **Note:** The status of PACE OCI LandVI [*and now the Chlorophyll-a*] updates can be tracked using the following [calendar](https://bit.ly/pace_oci_8d_cal).
 
+
 ## Updates: 10.04.2026
 1. Relevant to hyperspectral in general, NEON will be hosting a [webinar](https://eservices.esa.org/ProductDetail?iProductCode=WEB260428&_gl=1*1wyho7k*_gcl_au*MTQ2MTI1MjQ4Mi4xNzc1NzUzOTAz*_ga*MTYxNDE0MTIwMy4xNzc1NjgwNTg0*_ga_MGTVYRY71J*czE3NzU4MjkwMTgkbzIkZzAkdDE3NzU4MjkwMTgkajYwJGwwJGgw) on the use of Google Earth Engine (GEE) for remote sensing on 28.04.2026.
 
