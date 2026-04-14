@@ -27,6 +27,11 @@
 ## Updates: 08.04.2026
 1. As of this afternoon, there is *still* a delay in the availability of PACE OCI 8D and monthly data, with the most recently available 8D data being the 17-24 Jan. 2026 period, and the most recently available monthly data being for Jan. 2026. In terms of monthly data, the February and March 2026 data are still pending.
 
+## Updates: 06.04.2026
+1. The NASA Data at Work program <nasa-data-insignia@mail.nasa.gov> granted UAH permission to use the **NASA Data at Work** attribution badge on this Github page. Posting the badge to the page is a pending activity.
+
+<img width="188" height="222" alt="image" src="https://github.com/user-attachments/assets/d17a8d86-30d0-45b2-a35d-02a86070a249" />
+
 ## Updates: 01.04.2026
 1. A next must-read paper covering ***imaging spectroscopy***: *Hayden et al.* (2026) ["Scale dependence in remotely sensed biodiversity: Leveraging continental-scale imaging spectroscopy from the National Ecological Observatory Network"](https://zslpublications.onlinelibrary.wiley.com/doi/full/10.1002/rse2.70068)
 
