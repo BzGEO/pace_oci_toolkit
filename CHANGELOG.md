@@ -21,6 +21,9 @@
 
 <img width="812" height="461" alt="image" src="https://github.com/user-attachments/assets/a9f4c668-6d10-4df8-a553-654b69e0be98" />
 
+## Updates: 09.04.2026
+1. Dr. Morgaine McKibben, the NASA [PACE](https://pace.gsfc.nasa.gov/) Mission Applications Lead, and [Skye Caplan](https://github.com/skyecaplan), the PACE Terrestrial Product Lead, gave an [SSAI interview](https://www.youtube.com/@ScienceSystemsandApplicationsI) last year on "Turning Hyperspectral Data into Actionable Solutions": https://www.youtube.com/watch?v=IDKYW5pQExc.
+
 ## Updates: 08.04.2026
 1. As of this afternoon, there is *still* a delay in the availability of PACE OCI 8D and monthly data, with the most recently available 8D data being the 17-24 Jan. 2026 period, and the most recently available monthly data being for Jan. 2026. In terms of monthly data, the February and March 2026 data are still pending.
 
