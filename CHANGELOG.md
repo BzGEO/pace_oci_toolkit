@@ -4,6 +4,9 @@
 **Note:** The status of PACE OCI LandVI [*and now the Chlorophyll-a*] updates can be tracked using the following [calendar](https://bit.ly/pace_oci_8d_cal).
 
 ## Updates: 14.04.2026
+1. Related to hyperspectral data in general, at the recent (25.03.2026) meeting of the Committee on Earth Science and Applications from Space, the Director of NASA's Earth Science Division, Dr. Karen St. Germain delivered the following presentation: https://vimeo.com/1166411704?fl=pl&fe=cm#t=3h1m43s. She also highlighted the proposed EAGLE-SWIR mission early in her talk, as a part of the *Earth System Observatory* (ESO): https://vimeo.com/1166411704?fl=pl&fe=cm#t=3h15m5s.
+
+## Updates: 11.04.2026
 1. Tangential to PACE, NASA has a page focused on comparing the different tools that are available for processing data: https://www.earthdata.nasa.gov/data/tools/which-data-tool-right-for-you.
 
 <img width="971" height="578" alt="image" src="https://github.com/user-attachments/assets/e903fda7-0b3b-4641-b503-5ace51265214" />
