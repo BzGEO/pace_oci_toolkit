@@ -8,6 +8,9 @@
 
 <img width="1071" height="597" alt="image" src="https://github.com/user-attachments/assets/97820283-cd53-4a60-8adf-1ac74520a651" />
 
+<img width="934" height="524" alt="image" src="https://github.com/user-attachments/assets/f6677bf3-365f-49dd-8555-4445b89534b4" />
+
+
 ## Updates: 11.04.2026
 1. Tangential to PACE, NASA has a page focused on comparing the different tools that are available for processing data: https://www.earthdata.nasa.gov/data/tools/which-data-tool-right-for-you.
 
