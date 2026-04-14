@@ -22,7 +22,7 @@
 <img width="812" height="461" alt="image" src="https://github.com/user-attachments/assets/a9f4c668-6d10-4df8-a553-654b69e0be98" />
 
 ## Updates: 09.04.2026
-1. Dr. Morgaine McKibben, the NASA [PACE](https://pace.gsfc.nasa.gov/) Mission Applications Lead, and [Skye Caplan](https://github.com/skyecaplan), the PACE Terrestrial Product Lead, gave an [SSAI interview](https://www.youtube.com/@ScienceSystemsandApplicationsI) last year on "Turning Hyperspectral Data into Actionable Solutions": https://www.youtube.com/watch?v=IDKYW5pQExc.
+1. Dr. Morgaine McKibben, the NASA [PACE](https://pace.gsfc.nasa.gov/) Mission Applications Lead, and [Skye Caplan](https://github.com/skyecaplan), the PACE Terrestrial Product Lead, gave an [SSAI interview](https://www.youtube.com/@ScienceSystemsandApplicationsI) last year on ***Turning Hyperspectral Data into Actionable Solutions***: https://www.youtube.com/watch?v=IDKYW5pQExc.
 
 <img width="935" height="526" alt="image" src="https://github.com/user-attachments/assets/cfceed04-f6a0-4389-903e-533d20c7dd45" />
 
