@@ -4,22 +4,19 @@
 **Note:** The status of PACE OCI LandVI [*and now the Chlorophyll-a*] updates can be tracked using the following [calendar](https://bit.ly/pace_oci_8d_cal).
 
 ## Updates: 14.04.2026
-1. Related to hyperspectral data in general, at the recent (25.03.2026) meeting of the Committee on Earth Science and Applications from Space, the Director of NASA's Earth Science Division, Dr. Karen St. Germain delivered the following presentation: https://vimeo.com/1166411704?fl=pl&fe=cm#t=3h1m43s. She also highlighted the proposed EAGLE-VSWIR mission (a reconceptualized [SBG-VSWIR](https://github.com/sbg-vswir)) early in her talk (slide 10), as a part of the *Earth System Observatory* (ESO): https://vimeo.com/1166411704?fl=pl&fe=cm#t=3h15m5s.
+1. Related to hyperspectral data in general, at the recent (25.03.2026) meeting of the Committee on Earth Science and Applications from Space, the Director of [NASA's Earth Science Division](https://science.nasa.gov/earth-science/), [Dr. Karen St. Germain](https://science.nasa.gov/people/karen-st-germain/) delivered the following presentation: https://vimeo.com/1166411704?fl=pl&fe=cm#t=3h1m43s. She also highlighted the proposed EAGLE-VSWIR mission (a reconceptualized [SBG-VSWIR](https://github.com/sbg-vswir)) early in her talk (slide 10), as a part of the *Earth System Observatory* (ESO): https://vimeo.com/1166411704?fl=pl&fe=cm#t=3h15m5s.
 
 <img width="1071" height="597" alt="image" src="https://github.com/user-attachments/assets/97820283-cd53-4a60-8adf-1ac74520a651" />
-
 
 ## Updates: 11.04.2026
 1. Tangential to PACE, NASA has a page focused on comparing the different tools that are available for processing data: https://www.earthdata.nasa.gov/data/tools/which-data-tool-right-for-you.
 
 <img width="971" height="578" alt="image" src="https://github.com/user-attachments/assets/e903fda7-0b3b-4641-b503-5ace51265214" />
 
-
 ## Updates: 10.04.2026
 1. Relevant to hyperspectral in general, NEON will be hosting a [webinar](https://eservices.esa.org/ProductDetail?iProductCode=WEB260428&_gl=1*1wyho7k*_gcl_au*MTQ2MTI1MjQ4Mi4xNzc1NzUzOTAz*_ga*MTYxNDE0MTIwMy4xNzc1NjgwNTg0*_ga_MGTVYRY71J*czE3NzU4MjkwMTgkbzIkZzAkdDE3NzU4MjkwMTgkajYwJGwwJGgw) on the use of Google Earth Engine (GEE) for remote sensing on 28.04.2026.
 
 <img width="812" height="461" alt="image" src="https://github.com/user-attachments/assets/a9f4c668-6d10-4df8-a553-654b69e0be98" />
-
 
 ## Updates: 08.04.2026
 1. As of this afternoon, there is *still* a delay in the availability of PACE OCI 8D and monthly data, with the most recently available 8D data being the 17-24 Jan. 2026 period, and the most recently available monthly data being for Jan. 2026. In terms of monthly data, the February and March 2026 data are still pending.
