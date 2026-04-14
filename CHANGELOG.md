@@ -31,7 +31,7 @@
 1. A next must-read paper covering ***imaging spectroscopy***: *Hayden et al.* (2026) ["Scale dependence in remotely sensed biodiversity: Leveraging continental-scale imaging spectroscopy from the National Ecological Observatory Network"](https://zslpublications.onlinelibrary.wiley.com/doi/full/10.1002/rse2.70068)
 
 ## Updates: 31.03.2026
-1. The **2026 PACE Applications Workshop**'s materials are now available online: https://pace.oceansciences.org/event_archive/applications_workshop_2026.htm.
+1. The **2026 PACE Applications Workshop**'s materials + recordings are now available online: https://pace.oceansciences.org/event_archive/applications_workshop_2026.htm.
    * UAH's PACE Early Adopters research presentation 🎥 [in **session 4**] is available: https://youtu.be/p3ABh5tBqmE?t=9094.
    * The PACE OCI Toolkit demo 🎥 [in **session 5**] is available: https://www.youtube.com/watch?v=9XJBLpifaQg&t=1720s.
 
