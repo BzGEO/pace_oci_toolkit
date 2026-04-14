@@ -3,6 +3,11 @@
 
 **Note:** The status of PACE OCI LandVI [*and now the Chlorophyll-a*] updates can be tracked using the following [calendar](https://bit.ly/pace_oci_8d_cal).
 
+## Updates: 14.04.2026
+1. Tangential to PACE, NASA has a page focused on comparing the different tools that are available for processing data: https://www.earthdata.nasa.gov/data/tools/which-data-tool-right-for-you.
+
+<img width="971" height="578" alt="image" src="https://github.com/user-attachments/assets/e903fda7-0b3b-4641-b503-5ace51265214" />
+
 
 ## Updates: 10.04.2026
 1. Relevant to hyperspectral in general, NEON will be hosting a [webinar](https://eservices.esa.org/ProductDetail?iProductCode=WEB260428&_gl=1*1wyho7k*_gcl_au*MTQ2MTI1MjQ4Mi4xNzc1NzUzOTAz*_ga*MTYxNDE0MTIwMy4xNzc1NjgwNTg0*_ga_MGTVYRY71J*czE3NzU4MjkwMTgkbzIkZzAkdDE3NzU4MjkwMTgkajYwJGwwJGgw) on the use of Google Earth Engine (GEE) for remote sensing on 28.04.2026.
