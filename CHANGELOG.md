@@ -3,6 +3,9 @@
 
 **Note:** The status of PACE OCI LandVI [*and now the Chlorophyll-a*] updates can be tracked using the following [calendar](https://bit.ly/pace_oci_8d_cal).
 
+## Updates: 19.04.2026
+1. In the hyperspectral domain, Planet has launched its **Tanager Open Data Competition**: https://learn.planet.com/2026-Tanager-Open-Data-Competition.html. I have compiled links related to the competition in the following document: https://github.com/BzGEO/Hyperspectral_Toolkit/blob/main/misc/Planet_Tanager_OpenData_Competition_2026.md.
+
 ## Updates: 14.04.2026
 1. Related to hyperspectral data in general, at the recent (25.03.2026) meeting of the National Academies of Sciences, Engineering, and Medicine (NASEM)'s [Committee on Earth Science and Applications from Space](https://www.nationalacademies.org/projects/DEPS-SSB-16-10), the Director of [NASA's Earth Science Division](https://science.nasa.gov/earth-science/), [Dr. Karen St. Germain](https://science.nasa.gov/people/karen-st-germain/) delivered the following presentation: https://vimeo.com/1166411704?fl=pl&fe=cm#t=3h1m43s. She also highlighted the proposed ***EAGLE-VSWIR*** mission (a reconceptualized [***SBG-VSWIR***](https://github.com/sbg-vswir)) early in her talk (slide 10), as a part of the ***Earth System Observatory*** (ESO): https://vimeo.com/1166411704?fl=pl&fe=cm#t=3h15m5s.
 
