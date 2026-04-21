@@ -83,7 +83,7 @@ This work is being supported in the framework of the recently established NASA E
 
 <img width="188" height="222" alt="image" src="https://github.com/user-attachments/assets/638fe1ad-6454-4b5d-b180-27e0d9cb58c4" />
 
-**NASA provides data or research used in this Toolkit but does not endorse any product or service.**
+***Disclaimer:*** **NASA provides data or research used in this Toolkit but does not endorse any product or service.**
 
 ## Citation
 
