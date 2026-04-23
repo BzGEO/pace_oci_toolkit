@@ -1,6 +1,7 @@
 # the PACE OCI Toolkit (the PACE Toolkit)
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15873995.svg)](https://doi.org/10.5281/zenodo.15873995)
+[![EarthRISE: Code](https://img.shields.io/badge/EarthRISE-Code-b50000?labelColor=191f4c)](https://appliedsciences.nasa.gov)
 [![Update](https://img.shields.io/github/last-commit/bzgeo/pace_oci_toolkit?label=repo%20last%20updated&style=flat-square)](https://github.com/BzGEO/pace_oci_toolkit)
 ![Visitor Badge](https://visitor-badge.laobi.icu/badge?page_id=bzgeo.pace_oci_toolkit)
 
