@@ -38,7 +38,7 @@ The scripts are divided into the following main functions:
 To add the code repository 💾 directly to your GEE account, use the following *bit.ly* 🔗: https://bit.ly/gee_repo_pace_oci.
 
 > [!TIP]
-> If you need help with setting up a Google Cloud project [to access GEE](https://developers.google.com/earth-engine/guides/access), please see the tutorial videos in the following: https://github.com/BzGEO/GEE_resources.
+> If you need help with setting up a *Google Cloud* project [to access GEE](https://developers.google.com/earth-engine/guides/access), please see the tutorial videos in the following: https://github.com/BzGEO/GEE_resources.
 
 ![](https://github.com/BzGEO/pace_oci_toolkit/blob/main/_graphics/pace_oci_global_in_gee_2025-05.PNG)
 
