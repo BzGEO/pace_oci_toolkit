@@ -14,7 +14,7 @@ This is a set of JavaScript-based [Google Earth Engine 🌎 (GEE)](https://code.
 
 ## Feedback needed 📢
 > [!IMPORTANT]
-> ***Have you used the PACE OCI Toolkit?*** 🤔 If so, fill out our short [feedback form](https://bit.ly/survey_pace_toolkit)!
+> ***Have you used the PACE OCI Toolkit?*** 🤔 If so, fill out our short [**feedback form**](https://bit.ly/survey_pace_toolkit)!
 
 
 ## Functions
