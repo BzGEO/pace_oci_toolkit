@@ -3,6 +3,9 @@
 
 **Note:** The status of PACE OCI LandVI [*and now the Chlorophyll-a*] updates can be tracked using the following [calendar](https://bit.ly/pace_oci_8d_cal).
 
+## Updates: 24.04.2026
+1. I lodged a formal query on the NASA EarthData Forum about the missing recent 8D and monthly PACE OCI data: https://forum.earthdata.nasa.gov/viewtopic.php?t=7867.
+
 ## Updates: 19.04.2026
 1. In the hyperspectral domain, Planet has launched its **Tanager Open Data Competition**: https://learn.planet.com/2026-Tanager-Open-Data-Competition.html. I have compiled links related to the competition in the following document: https://github.com/BzGEO/Hyperspectral_Toolkit/blob/main/misc/Planet_Tanager_OpenData_Competition_2026.md.
 
