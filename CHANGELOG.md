@@ -3,6 +3,9 @@
 
 **Note:** The status of PACE OCI LandVI [*and now the Chlorophyll-a*] updates can be tracked using the following [calendar](https://bit.ly/pace_oci_8d_cal).
 
+## Updates: 27.04.2026
+1. Regarding the significant delay in the release of the 8D and monthly PACE OCI data (e.g. February, March 2026 data), the production team has indicated that the data are expected to be released with the version 3.2 processing, potentially during the second week of May (see: https://forum.earthdata.nasa.gov/viewtopic.php?t=7867#p25862).
+
 ## Updates: 24.04.2026
 1. I lodged a formal query on the NASA EarthData Forum about the missing recent 8D and monthly PACE OCI data: https://forum.earthdata.nasa.gov/viewtopic.php?t=7867.
 
