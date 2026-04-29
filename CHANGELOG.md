@@ -3,6 +3,11 @@
 
 **Note:** The status of PACE OCI LandVI [*and now the Chlorophyll-a*] updates can be tracked using the following [calendar](https://bit.ly/pace_oci_8d_cal).
 
+## Updates: 29.04.2026
+1. Related to hyperspectral data in general:
+   * As indicated in the 14.04.2026 update below, NASA is proposing a new hyperspectral mission called **EAGLE-VSWIR**, as a replacement for the canceled **SBG-VSWIR** mission. The mission team at NASA JPL has developed the following [form](https://forms.gle/PNHjP5jwATg6TSaHA) for interested users to sign up to receive additional information about the mission, as well as register for a Slack workspace that has been created.
+   * There is a planned **EAGLE-VSWIR** webinar planned for Thu. 21.05.2026 at 11:00 am - 12:30 pm CDT. Here is the [registration link](https://events.gcc.teams.microsoft.com/event/0c4dbaf2-bd6b-47f6-a597-d93b3091a25a@545921e0-10ef-4398-8713-9832ac563dad).
+
 ## Updates: 27.04.2026
 1. Regarding the significant delay in the release of the 8D and monthly PACE OCI data (e.g. February, March 2026 data), the production team has indicated that the data are expected to be released with the **version 3.2** processing, potentially during the second week of May (see: https://forum.earthdata.nasa.gov/viewtopic.php?t=7867#p25862). This will also require the reprocessing of the data available through the Toolkit.
 
