@@ -7,6 +7,7 @@
   * **Hyperspectral:** EMIT (60m), PACE OCI (1km), Tanager (30m)
   * **SAR:** NISAR (10m), Sentinel-1 (10m)
   * **Thermal:** ECOSTRESS (70m), Landsat-8 / -9 (100m), MODIS (1km), VIIRS (500m)
+* Use the match-ups to characterize an area ➡️ "Here's how different types of sensors see this specific area of importance."
 
 ## Potential issues
   * The main issue will be finding imagery from coincident dates.
