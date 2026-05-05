@@ -21,7 +21,18 @@
 
 <img width="462" height="340" alt="image" src="https://github.com/user-attachments/assets/58967fc0-9733-452a-9e72-e49b5935fc96" />
 
-**Figure 1.** NISAR data [available](https://search.asf.alaska.edu/#/?dataset=NISAR&prodConfig=PR&zoom=3.000&center=-109.887,17.518&polygon=POLYGON((-130.4529%206.0087,-57.0643%206.0087,-57.0643%2052.4555,-130.4529%2052.4555,-130.4529%206.0087))&resultsLoaded=true&granule=NISAR_L2_PR_GSLC_010_164_A_027_0005_NADV_A_20260120T133756_20260120T133832_X05010_N_F_J_001&maxResults=2000) over the continental USA, Mexico, Central America, and the Caribbean (as of May 2026)
+**Figure 1.** NISAR data [available](https://search.asf.alaska.edu/#/?dataset=NISAR&prodConfig=PR&zoom=3.000&center=-109.887,17.518&polygon=POLYGON((-130.4529%206.0087,-57.0643%206.0087,-57.0643%2052.4555,-130.4529%2052.4555,-130.4529%206.0087))&resultsLoaded=true&granule=NISAR_L2_PR_GSLC_010_164_A_027_0005_NADV_A_20260120T133756_20260120T133832_X05010_N_F_J_001&maxResults=2000) over the continental USA, Mexico, Central America, and the Caribbean, as of May 2026 (*source: ASF Vertex*).
+
+<img width="473" height="366" alt="image" src="https://github.com/user-attachments/assets/9403b944-7b70-4084-b83d-6c6c24e6aedc" />
+
+**Figure 2.** [Availability](https://search.asf.alaska.edu/#/?dataset=NISAR&prodConfig=PR&zoom=3.000&center=-109.887,17.518&polygon=POLYGON((-130.4529%206.0087,-57.0643%206.0087,-57.0643%2052.4555,-130.4529%2052.4555,-130.4529%206.0087))&resultsLoaded=true&granule=NISAR_L2_PR_GCOV_010_163_A_028_4005_DHDH_A_20260120T115838_20260120T115913_X05010_N_F_J_001&maxResults=2000&sciProducts=GCOV&polarizations=HH-HV,HH-VV,VV-VH,RH-RV,LH-LV) of NISAR dual pol imagery (*source: ASF Vertex*).
+
+<img width="460" height="360" alt="image" src="https://github.com/user-attachments/assets/1a19e53a-9554-4174-8e91-8a780affde35" />
+
+**Figure 3.** [Availability](https://search.asf.alaska.edu/#/?dataset=NISAR&prodConfig=PR&zoom=3.000&center=-109.887,17.518&polygon=POLYGON((-130.4529%206.0087,-57.0643%206.0087,-57.0643%2052.4555,-130.4529%2052.4555,-130.4529%206.0087))&resultsLoaded=true&granule=NISAR_L2_PR_GCOV_010_156_D_070_2005_QPDH_A_20260120T004332_20260120T004341_X05010_N_P_J_001&maxResults=2000&sciProducts=GCOV&polarizations=HH-HV-VH-VV) of quad pol NISAR imagery (*source: ASF Vertex*).
+
+## Geographic domain(s)
+* Quad pol NISAR imagery are mainly available only for the midwest US.
 
 ## Other
   * X
