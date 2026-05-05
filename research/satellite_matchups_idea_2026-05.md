@@ -16,7 +16,7 @@
   * ECOSTRESS and EMIT data are likely to be limiting also given that the data aren't regularly collected.
   * ECOSTRESS data aren't accessible via GEE.
   * The Tanager data are only available for select sites -> also a limiting factor. See the maps in the following [link](https://github.com/BzGEO/Hyperspectral_Toolkit/blob/main/misc/Planet_Tanager_OpenData_Competition_2026.md#2-competition-data-resources-tanager-spatio-temporal-asset-catalog).
-  * It *should* be possible to find coincident data for L8 / L9, S2, Planet, PACE OCI, S1.
+  * It *should* be possible to find coincident data for L8 / L9, S2, MODIS, Planet, PACE OCI, S1, VIIRS.
   * PlanetScope data are limited by licensing.
 
 <img width="462" height="340" alt="image" src="https://github.com/user-attachments/assets/58967fc0-9733-452a-9e72-e49b5935fc96" />
