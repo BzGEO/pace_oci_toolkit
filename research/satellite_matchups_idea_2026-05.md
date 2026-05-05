@@ -13,7 +13,7 @@
   * It *should* be possible to find coincident data for L8 / L9, S2, Planet, PACE OCI, S1.
   * PlanetScope data are limited by licensing.
 
-<img width="924" height="680" alt="image" src="https://github.com/user-attachments/assets/58967fc0-9733-452a-9e72-e49b5935fc96" />
+<img width="462" height="340" alt="image" src="https://github.com/user-attachments/assets/58967fc0-9733-452a-9e72-e49b5935fc96" />
 
 **Figure 1.** NISAR data [available](https://search.asf.alaska.edu/#/?dataset=NISAR&prodConfig=PR&zoom=3.000&center=-109.887,17.518&polygon=POLYGON((-130.4529%206.0087,-57.0643%206.0087,-57.0643%2052.4555,-130.4529%2052.4555,-130.4529%206.0087))&resultsLoaded=true&granule=NISAR_L2_PR_GSLC_010_164_A_027_0005_NADV_A_20260120T133756_20260120T133832_X05010_N_F_J_001&maxResults=2000) over the continental USA, Mexico, Central America, and the Caribbean (as of May 2026)
 
