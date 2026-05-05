@@ -11,7 +11,7 @@
 
 ## Potential issues
   * The main issue will be finding imagery from coincident dates.
-  * Another issue will be considering spatial resolutions. Most of the datasets are in the ~30m range. A few of the datasets (i.e., MODIS, PACE OCI, VIIRS) are at a coarse 1km resolution.
+  * Another issue will be considering spatial resolutions. Most of the datasets are in the ~30m range. A few of the datasets are at a coarse 1km resolution (i.e., MODIS, PACE OCI, VIIRS).
   * NISAR will currently be the most limiting data given that its present availability is limited to the initial release. The next release of NISAR data isn't anticipated [until July 2026](https://nisar-docs.asf.alaska.edu/availability-overview/#data-release-timeline). The most available data are over CONUS (see **Figure 1** below).
   * ECOSTRESS and EMIT data are likely to be limiting also given that the data aren't regularly collected.
   * ECOSTRESS data aren't accessible via GEE.
