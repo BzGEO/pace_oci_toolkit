@@ -4,7 +4,7 @@
 ~~**Note:** The status of PACE OCI LandVI [*and now the Chlorophyll-a*] updates can be tracked using the following [calendar](https://bit.ly/pace_oci_8d_cal).~~
 
 ## Updates: 10.09.2026
-1. Today is the second day of the EMIT Science and Applications Technical Interchange Meeting (TIM). The previous TIM was held in May 2025. In addition to a focus on EMIT, various presentations have also highlighted the importance and usefulness of the PACE mission.
+1. Today is the second day of the [EMIT](https://earth.jpl.nasa.gov/emit/) Science and Applications Technical Interchange Meeting (TIM). The previous TIM was held in May 2025. In addition to a focus on EMIT, various presentations have also highlighted the importance and usefulness of the PACE mission.
 
 ## Updates: 03.09.2026
 1. The PACE quarterly [Community of Practice](https://pace.oceansciences.org/events_more.htm?id=92) meeting was today. Here is the [link](https://nasa-ext.app.box.com/s/4prpwex7wo2sjy6d5hx1rc3guedwltwd) to Dr. Morgaine McKibben's overview presentation.
